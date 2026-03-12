@@ -1,0 +1,36 @@
+{
+  "id" : "BUPC4MI7",
+  "name" : "查询allcolumns",
+  "enableTransaction" : true,
+  "allowExpressionCall" : false,
+  "parameters" : [ {
+    "id" : "UO8F5DVJ",
+    "name" : "每页条数",
+    "dataType" : {
+      "typeId" : "Integer"
+    }
+  }, {
+    "id" : "GYZKM48Y",
+    "name" : "跳过条数",
+    "dataType" : {
+      "typeId" : "Integer"
+    }
+  } ],
+  "variables" : [ ],
+  "returnValues" : [ {
+    "id" : "NLURIT3S",
+    "name" : "数据列表",
+    "dataType" : {
+      "typeId" : "List",
+      "genericTypes" : [ {
+        "typeId" : "HK4XWQMR"
+      } ]
+    }
+  }, {
+    "id" : "AT63MNJM",
+    "name" : "数据总行数",
+    "dataType" : {
+      "typeId" : "Integer"
+    }
+  } ]
+}

@@ -1,0 +1,21 @@
+{
+  "id" : "XSQJ8PY7",
+  "name" : "创建allcolumns",
+  "enableTransaction" : true,
+  "allowExpressionCall" : false,
+  "parameters" : [ {
+    "id" : "T4A0KECZ",
+    "name" : "实体",
+    "dataType" : {
+      "typeId" : "HK4XWQMR"
+    }
+  } ],
+  "variables" : [ ],
+  "returnValues" : [ {
+    "id" : "ISXMJ9G4",
+    "name" : "返回值",
+    "dataType" : {
+      "typeId" : "Integer"
+    }
+  } ]
+}

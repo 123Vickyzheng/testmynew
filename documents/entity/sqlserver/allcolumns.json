@@ -1,0 +1,227 @@
+{
+  "type" : "entityModel",
+  "id" : "HK4XWQMR",
+  "name" : "allcolumns",
+  "tableName" : "allcolumns",
+  "schema" : "dbo",
+  "showBuiltinColumns" : false,
+  "dataSourceId" : "VBGL31JZ",
+  "columns" : [ {
+    "type" : "entityColumnModel",
+    "id" : "W2YSFHT0",
+    "columnName" : "id",
+    "name" : "id",
+    "dataType" : {
+      "typeId" : "Integer"
+    },
+    "dbType" : "INT",
+    "jdbcType" : 4,
+    "width" : 100,
+    "isPrimaryKey" : true,
+    "isRequired" : true,
+    "isBuiltIn" : true,
+    "isAutoIncrement" : true,
+    "defaultValue" : 0,
+    "isUnique" : true,
+    "columnKind" : "physical"
+  }, {
+    "type" : "entityColumnModel",
+    "id" : "W16XGC2M",
+    "columnName" : "Integer",
+    "name" : "Integer",
+    "dataType" : {
+      "typeId" : "Integer"
+    },
+    "dbType" : "INT",
+    "jdbcType" : 4,
+    "width" : 100,
+    "isRequired" : false,
+    "isPrimaryKey" : false,
+    "isBuiltIn" : false,
+    "isUnique" : false,
+    "isAutoIncrement" : false,
+    "columnKind" : "physical"
+  }, {
+    "type" : "entityColumnModel",
+    "id" : "P6BUMLUN",
+    "columnName" : "Decimal",
+    "name" : "Decimal",
+    "dataType" : {
+      "typeId" : "Decimal"
+    },
+    "dbType" : "DECIMAL",
+    "jdbcType" : 8,
+    "width" : 100,
+    "isRequired" : false,
+    "isPrimaryKey" : false,
+    "isBuiltIn" : false,
+    "isUnique" : false,
+    "isAutoIncrement" : false,
+    "columnKind" : "physical"
+  }, {
+    "type" : "entityColumnModel",
+    "id" : "Z90I4K85",
+    "columnName" : "Boolean",
+    "name" : "Boolean",
+    "dataType" : {
+      "typeId" : "Boolean"
+    },
+    "dbType" : "BIT",
+    "jdbcType" : 16,
+    "width" : 100,
+    "isRequired" : false,
+    "isPrimaryKey" : false,
+    "isBuiltIn" : false,
+    "isUnique" : false,
+    "isAutoIncrement" : false,
+    "columnKind" : "physical"
+  }, {
+    "type" : "entityColumnModel",
+    "id" : "KJCY2FTV",
+    "columnName" : "String",
+    "name" : "String",
+    "dataType" : {
+      "typeId" : "String"
+    },
+    "dbType" : "NVARCHAR",
+    "jdbcType" : -1,
+    "width" : 100,
+    "isRequired" : false,
+    "isPrimaryKey" : false,
+    "isBuiltIn" : false,
+    "isUnique" : false,
+    "isAutoIncrement" : false,
+    "columnKind" : "physical"
+  }, {
+    "type" : "entityColumnModel",
+    "id" : "XEU3XA82",
+    "columnName" : "Date",
+    "name" : "Date",
+    "dataType" : {
+      "typeId" : "Date"
+    },
+    "dbType" : "DATE",
+    "jdbcType" : 91,
+    "width" : 120,
+    "isRequired" : false,
+    "isPrimaryKey" : false,
+    "isBuiltIn" : false,
+    "isUnique" : false,
+    "isAutoIncrement" : false,
+    "columnKind" : "physical"
+  }, {
+    "type" : "entityColumnModel",
+    "id" : "TKM68SNY",
+    "columnName" : "Time",
+    "name" : "Time",
+    "dataType" : {
+      "typeId" : "Time"
+    },
+    "dbType" : "TIME",
+    "jdbcType" : 92,
+    "width" : 100,
+    "isRequired" : false,
+    "isPrimaryKey" : false,
+    "isBuiltIn" : false,
+    "isUnique" : false,
+    "isAutoIncrement" : false,
+    "columnKind" : "physical"
+  }, {
+    "type" : "entityColumnModel",
+    "id" : "RUQ0Z53W",
+    "columnName" : "DateTime",
+    "name" : "DateTime",
+    "dataType" : {
+      "typeId" : "DateTime"
+    },
+    "dbType" : "DATETIMEOFFSET",
+    "jdbcType" : 2014,
+    "width" : 180,
+    "isRequired" : false,
+    "isPrimaryKey" : false,
+    "isBuiltIn" : false,
+    "isUnique" : false,
+    "isAutoIncrement" : false,
+    "columnKind" : "physical"
+  }, {
+    "type" : "entityColumnModel",
+    "id" : "T78DCPGP",
+    "columnName" : "phx_created_at",
+    "name" : "创建时间",
+    "dataType" : {
+      "typeId" : "DateTime"
+    },
+    "dbType" : "DATETIMEOFFSET",
+    "jdbcType" : 2014,
+    "width" : 180,
+    "isPrimaryKey" : false,
+    "isRequired" : true,
+    "isBuiltIn" : true,
+    "defaultValue" : "NOW",
+    "isUnique" : false,
+    "columnKind" : "physical"
+  }, {
+    "type" : "entityColumnModel",
+    "id" : "BC13C4H3",
+    "columnName" : "phx_updated_at",
+    "name" : "更新时间",
+    "dataType" : {
+      "typeId" : "DateTime"
+    },
+    "dbType" : "DATETIMEOFFSET",
+    "jdbcType" : 2014,
+    "width" : 180,
+    "isPrimaryKey" : false,
+    "isRequired" : true,
+    "isBuiltIn" : true,
+    "defaultValue" : "NOW",
+    "isUnique" : false,
+    "columnKind" : "physical"
+  }, {
+    "type" : "entityColumnModel",
+    "id" : "RIIDPWDD",
+    "columnName" : "phx_created_by",
+    "name" : "创建人",
+    "dataType" : {
+      "typeId" : "String"
+    },
+    "dbType" : "NVARCHAR",
+    "jdbcType" : -1,
+    "width" : 100,
+    "isPrimaryKey" : false,
+    "isRequired" : false,
+    "isBuiltIn" : true,
+    "defaultValue" : "",
+    "isUnique" : false,
+    "columnKind" : "physical"
+  }, {
+    "type" : "entityColumnModel",
+    "id" : "GZ33EREH",
+    "columnName" : "phx_updated_by",
+    "name" : "更新人",
+    "dataType" : {
+      "typeId" : "String"
+    },
+    "dbType" : "NVARCHAR",
+    "jdbcType" : -1,
+    "width" : 100,
+    "isPrimaryKey" : false,
+    "isRequired" : false,
+    "isBuiltIn" : true,
+    "defaultValue" : "",
+    "isUnique" : false,
+    "columnKind" : "physical"
+  } ],
+  "indexes" : [ {
+    "indexName" : "PK__allcolum__3213E83F12FCB26C",
+    "isUnique" : true,
+    "isPrimary" : true,
+    "isUnEditable" : true,
+    "description" : "主键索引",
+    "indexColumns" : [ {
+      "columnId" : "W2YSFHT0",
+      "order" : "ASC"
+    } ]
+  } ],
+  "columnExtensionLoaded" : true
+}

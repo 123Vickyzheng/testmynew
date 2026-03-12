@@ -1,0 +1,20 @@
+{
+  "UO8F5DVJ" : "每页条数",
+  "GYZKM48Y" : "跳过条数",
+  "HK4XWQMR" : "allcolumns",
+  "NLURIT3S" : "数据列表",
+  "AT63MNJM" : "数据总行数",
+  "W2YSFHT0" : "id",
+  "W16XGC2M" : "Integer",
+  "P6BUMLUN" : "Decimal",
+  "Z90I4K85" : "Boolean",
+  "KJCY2FTV" : "String",
+  "XEU3XA82" : "Date",
+  "TKM68SNY" : "Time",
+  "RUQ0Z53W" : "DateTime",
+  "T78DCPGP" : "创建时间",
+  "BC13C4H3" : "更新时间",
+  "RIIDPWDD" : "创建人",
+  "GZ33EREH" : "更新人",
+  "VBGL31JZ" : "sqlserver"
+}

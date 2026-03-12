@@ -1,0 +1,15 @@
+{
+  "id" : "NXDW8F3O",
+  "name" : "创建或更改allcolumns",
+  "enableTransaction" : true,
+  "allowExpressionCall" : false,
+  "parameters" : [ {
+    "id" : "LR02L8UO",
+    "name" : "实体",
+    "dataType" : {
+      "typeId" : "HK4XWQMR"
+    }
+  } ],
+  "variables" : [ ],
+  "returnValues" : [ ]
+}

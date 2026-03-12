@@ -1,0 +1,171 @@
+{
+  "id" : "NXDW8F3O",
+  "name" : "创建或更改allcolumns",
+  "variables" : [ ],
+  "parameters" : [ {
+    "id" : "LR02L8UO",
+    "name" : "实体",
+    "dataType" : {
+      "typeId" : "HK4XWQMR"
+    }
+  } ],
+  "returnValues" : [ ],
+  "allowExpressionCall" : false,
+  "enableTransaction" : true,
+  "diagram" : {
+    "nodes" : [ {
+      "id" : "MEIC593P",
+      "name" : "开始",
+      "pluginName" : "",
+      "identifier" : "",
+      "attributes" : {
+        "position" : {
+          "x" : 30,
+          "y" : 216
+        }
+      },
+      "isStartPoint" : true
+    }, {
+      "id" : "TMWLSU5S",
+      "name" : "创建或更改allcolumns",
+      "pluginName" : "logic-data-operation",
+      "identifier" : "data-upsert",
+      "content" : {
+        "entityType" : {
+          "typeId" : "HK4XWQMR"
+        },
+        "variable" : {
+          "type" : "variable",
+          "variable" : "LR02L8UO"
+        },
+        "condition" : {
+          "conditionType" : 0,
+          "conditionItems" : [ {
+            "conditionType" : 2,
+            "conditionItems" : null,
+            "type" : 3,
+            "identifier" : "HK4XWQMR.W2YSFHT0",
+            "name" : "id",
+            "operator" : 0,
+            "value" : {
+              "type" : 6,
+              "identifier" : "LR02L8UO.W2YSFHT0",
+              "name" : null
+            }
+          } ]
+        },
+        "propertyMappers" : [ {
+          "id" : "7e212290-54b6-44b5-81df-a42e498cbc4d",
+          "target" : {
+            "type" : "literal",
+            "literal" : "W16XGC2M"
+          },
+          "source" : {
+            "type" : "expression",
+            "expression" : "LR02L8UO.W16XGC2M"
+          }
+        }, {
+          "id" : "22bde636-d9b7-4507-a6c2-e29b75774601",
+          "target" : {
+            "type" : "literal",
+            "literal" : "P6BUMLUN"
+          },
+          "source" : {
+            "type" : "expression",
+            "expression" : "LR02L8UO.P6BUMLUN"
+          }
+        }, {
+          "id" : "5795c4ca-c3f1-4af1-b080-af93d5d7b5e5",
+          "target" : {
+            "type" : "literal",
+            "literal" : "Z90I4K85"
+          },
+          "source" : {
+            "type" : "expression",
+            "expression" : "LR02L8UO.Z90I4K85"
+          }
+        }, {
+          "id" : "2ae67c39-7f62-4a23-818f-f9c13abab8e7",
+          "target" : {
+            "type" : "literal",
+            "literal" : "KJCY2FTV"
+          },
+          "source" : {
+            "type" : "expression",
+            "expression" : "LR02L8UO.KJCY2FTV"
+          }
+        }, {
+          "id" : "3d067379-4a3b-42c5-b318-73c9ccbc4b93",
+          "target" : {
+            "type" : "literal",
+            "literal" : "XEU3XA82"
+          },
+          "source" : {
+            "type" : "expression",
+            "expression" : "LR02L8UO.XEU3XA82"
+          }
+        }, {
+          "id" : "1ad59dde-7691-4e33-ae8e-381606848078",
+          "target" : {
+            "type" : "literal",
+            "literal" : "TKM68SNY"
+          },
+          "source" : {
+            "type" : "expression",
+            "expression" : "LR02L8UO.TKM68SNY"
+          }
+        }, {
+          "id" : "ead69e98-30fa-4d9e-8edc-e36326a49e0f",
+          "target" : {
+            "type" : "literal",
+            "literal" : "RUQ0Z53W"
+          },
+          "source" : {
+            "type" : "expression",
+            "expression" : "LR02L8UO.RUQ0Z53W"
+          }
+        }, {
+          "id" : "803dae97-be45-4ea7-8a17-327687e3aeb4",
+          "target" : {
+            "type" : "literal",
+            "literal" : "W2YSFHT0"
+          },
+          "source" : {
+            "type" : "expression",
+            "expression" : "LR02L8UO.W2YSFHT0"
+          }
+        } ]
+      },
+      "attributes" : {
+        "position" : {
+          "x" : 122,
+          "y" : 216
+        }
+      }
+    }, {
+      "id" : "DF68WU04",
+      "name" : "结束",
+      "pluginName" : "logic-core",
+      "identifier" : "return",
+      "attributes" : {
+        "position" : {
+          "x" : 382,
+          "y" : 216
+        }
+      }
+    } ],
+    "edges" : [ {
+      "id" : "G1VHQMYR",
+      "sourceId" : "MEIC593P",
+      "targetId" : "TMWLSU5S",
+      "sourcePosition" : "right",
+      "targetPosition" : "left"
+    }, {
+      "id" : "IZGH6QM7",
+      "sourceId" : "TMWLSU5S",
+      "targetId" : "DF68WU04",
+      "sourcePosition" : "right",
+      "targetPosition" : "left"
+    } ]
+  }
+}

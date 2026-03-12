@@ -1,0 +1,165 @@
+{
+  "id" : "LT4DI8HE",
+  "name" : "查询allcolumns详情",
+  "variables" : [ ],
+  "parameters" : [ {
+    "id" : "IP1PBNTP",
+    "name" : "主键",
+    "dataType" : {
+      "typeId" : "Integer"
+    }
+  } ],
+  "returnValues" : [ {
+    "id" : "LUN5KA5U",
+    "name" : "返回值",
+    "dataType" : {
+      "typeId" : "HK4XWQMR"
+    }
+  } ],
+  "allowExpressionCall" : false,
+  "enableTransaction" : true,
+  "diagram" : {
+    "nodes" : [ {
+      "id" : "RD1LEEBD",
+      "name" : "开始",
+      "pluginName" : "",
+      "identifier" : "",
+      "attributes" : {
+        "position" : {
+          "x" : 30,
+          "y" : 216
+        }
+      },
+      "isStartPoint" : true
+    }, {
+      "id" : "ITP1QHLC",
+      "name" : "查询allcolumns详情",
+      "pluginName" : "logic-data-operation",
+      "identifier" : "data-query",
+      "content" : {
+        "model" : {
+          "table" : {
+            "entityId" : "HK4XWQMR",
+            "tableAlias" : "allcolumns",
+            "dataSourceId" : "VBGL31JZ",
+            "schema" : "dbo",
+            "columns" : [ {
+              "id" : "O2FTXN99",
+              "columnId" : "W2YSFHT0"
+            }, {
+              "id" : "YF4ETJ48",
+              "columnId" : "W16XGC2M"
+            }, {
+              "id" : "RIQAIR8U",
+              "columnId" : "P6BUMLUN"
+            }, {
+              "id" : "MDOQ1BNN",
+              "columnId" : "Z90I4K85"
+            }, {
+              "id" : "GLLUGXH1",
+              "columnId" : "KJCY2FTV"
+            }, {
+              "id" : "GOXZSSS7",
+              "columnId" : "XEU3XA82"
+            }, {
+              "id" : "I8QUSSIV",
+              "columnId" : "TKM68SNY"
+            }, {
+              "id" : "CL1O24S2",
+              "columnId" : "RUQ0Z53W"
+            }, {
+              "id" : "VEYWXAWR",
+              "columnId" : "T78DCPGP"
+            }, {
+              "id" : "BEXG1ZDE",
+              "columnId" : "BC13C4H3"
+            }, {
+              "id" : "Q1BLS4GC",
+              "columnId" : "RIIDPWDD"
+            }, {
+              "id" : "LWV9DSTU",
+              "columnId" : "GZ33EREH"
+            } ]
+          },
+          "condition" : {
+            "conditionType" : 0,
+            "conditionItems" : [ {
+              "conditionType" : 2,
+              "conditionItems" : null,
+              "type" : 3,
+              "identifier" : "HK4XWQMR.W2YSFHT0",
+              "name" : null,
+              "operator" : 0,
+              "value" : {
+                "type" : 6,
+                "identifier" : "IP1PBNTP",
+                "name" : null
+              },
+              "nullValueStrategy" : 0
+            } ]
+          },
+          "groupBy" : null,
+          "orderBy" : {
+            "identifiers" : [ {
+              "id" : "ZPC7KM09",
+              "columnIdentifier" : {
+                "type" : 3,
+                "identifier" : "HK4XWQMR.W2YSFHT0",
+                "name" : null
+              },
+              "orderIdentifier" : {
+                "type" : 6,
+                "identifier" : "MKJRE5LE.OKJUY1IK",
+                "name" : null
+              }
+            } ]
+          },
+          "pagination" : null,
+          "extra" : null,
+          "deletedTableConfigs" : null
+        },
+        "property" : {
+          "queryMode" : 1,
+          "typeMode" : "specific",
+          "specificType" : {
+            "typeId" : "HK4XWQMR"
+          },
+          "returnTo" : {
+            "type" : "variable",
+            "variable" : "LUN5KA5U"
+          }
+        }
+      },
+      "attributes" : {
+        "position" : {
+          "x" : 122,
+          "y" : 216
+        }
+      }
+    }, {
+      "id" : "TMXCNABN",
+      "name" : "结束",
+      "pluginName" : "logic-core",
+      "identifier" : "return",
+      "attributes" : {
+        "position" : {
+          "x" : 382,
+          "y" : 216
+        }
+      }
+    } ],
+    "edges" : [ {
+      "id" : "LVSHCY8M",
+      "sourceId" : "RD1LEEBD",
+      "targetId" : "ITP1QHLC",
+      "sourcePosition" : "right",
+      "targetPosition" : "left"
+    }, {
+      "id" : "EYB88290",
+      "sourceId" : "ITP1QHLC",
+      "targetId" : "TMXCNABN",
+      "sourcePosition" : "right",
+      "targetPosition" : "left"
+    } ]
+  }
+}

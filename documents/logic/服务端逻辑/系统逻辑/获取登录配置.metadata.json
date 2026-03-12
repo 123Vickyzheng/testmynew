@@ -1,0 +1,14 @@
+{
+  "id" : "K5RR4JIA",
+  "name" : "获取登录配置",
+  "description" : "",
+  "parameters" : [ ],
+  "variables" : [ ],
+  "returnValues" : [ {
+    "id" : "XMH9A51P",
+    "name" : "config",
+    "dataType" : {
+      "typeId" : "Auto"
+    }
+  } ]
+}

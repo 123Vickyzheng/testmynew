@@ -1,0 +1,21 @@
+{
+  "id" : "SGSH50KO",
+  "name" : "删除allcolumns",
+  "enableTransaction" : true,
+  "allowExpressionCall" : false,
+  "parameters" : [ {
+    "id" : "F0ROHHS2",
+    "name" : "主键",
+    "dataType" : {
+      "typeId" : "Integer"
+    }
+  } ],
+  "variables" : [ ],
+  "returnValues" : [ {
+    "id" : "L4R46MVT",
+    "name" : "返回值",
+    "dataType" : {
+      "typeId" : "Integer"
+    }
+  } ]
+}

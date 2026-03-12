@@ -1,0 +1,11 @@
+{
+  "id" : "HE0FJVQ7",
+  "name" : "页面1",
+  "resourceType" : "page",
+  "description" : "",
+  "variables" : [ ],
+  "logics" : [ ],
+  "eventListeners" : [ ],
+  "elementEventListeners" : [ ],
+  "platform" : "pc"
+}

@@ -1,0 +1,21 @@
+{
+  "id" : "LT4DI8HE",
+  "name" : "查询allcolumns详情",
+  "enableTransaction" : true,
+  "allowExpressionCall" : false,
+  "parameters" : [ {
+    "id" : "IP1PBNTP",
+    "name" : "主键",
+    "dataType" : {
+      "typeId" : "Integer"
+    }
+  } ],
+  "variables" : [ ],
+  "returnValues" : [ {
+    "id" : "LUN5KA5U",
+    "name" : "返回值",
+    "dataType" : {
+      "typeId" : "HK4XWQMR"
+    }
+  } ]
+}

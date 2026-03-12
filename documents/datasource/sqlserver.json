@@ -1,0 +1,26 @@
+{
+  "id" : "VBGL31JZ",
+  "name" : "sqlserver",
+  "host" : "xa-dd3-fS25P18",
+  "userName" : "SA",
+  "password" : "xA20200326",
+  "port" : 1433,
+  "databaseName" : "phoenix_testdb",
+  "extraJdbcUrl" : "trustServerCertificate=true",
+  "description" : "",
+  "type" : "sqlserver",
+  "customConfig" : null,
+  "advanceConfig" : {
+    "poolPreparedStatements" : true,
+    "maxWait" : 3000,
+    "socketTimeout" : 60000,
+    "maxActive" : 8,
+    "minIdle" : 0,
+    "initialSize" : 0,
+    "breakAfterAcquireFailure" : true,
+    "connectionErrorRetryAttempts" : 5,
+    "extensionProperties" : null
+  },
+  "capabilityConfig" : null,
+  "isPinned" : false
+}

@@ -1,0 +1,687 @@
+{
+  "id" : "B68SQ4UZ",
+  "name" : "requestCompleted",
+  "displayName" : "请求完成后",
+  "description" : "处理HTTP请求完成事件，包括错误处理和页面跳转",
+  "type" : "globalEvent",
+  "resourceType" : "globalEvent",
+  "sourceLogic" : {
+    "id" : "I1DS58B2",
+    "name" : "请求完成后",
+    "displayName" : "请求完成后",
+    "parameters" : [ {
+      "id" : "Y12TSZAG",
+      "name" : "request",
+      "dataType" : {
+        "typeId" : "PMSBQ9LE"
+      },
+      "description" : "HTTP请求信息"
+    }, {
+      "id" : "J9KY8W03",
+      "name" : "response",
+      "dataType" : {
+        "typeId" : "CLHTTPRS"
+      },
+      "description" : "HTTP响应信息"
+    } ],
+    "variables" : [ ],
+    "returnValues" : [ ],
+    "diagram" : {
+      "nodes" : [ {
+        "id" : "TS1WB7IS",
+        "name" : "开始",
+        "pluginName" : "",
+        "identifier" : "",
+        "attributes" : {
+          "position" : {
+            "x" : 1.8927528875538044,
+            "y" : 405
+          }
+        },
+        "isStartPoint" : true
+      }, {
+        "id" : "X1IU0P1C",
+        "name" : "判断页面请求401",
+        "pluginName" : "logic-core",
+        "identifier" : "if",
+        "content" : {
+          "conditions" : {
+            "type" : "structure",
+            "structure" : {
+              "ifCase" : {
+                "type" : "structure",
+                "structure" : {
+                  "identifier" : {
+                    "type" : "literal",
+                    "literal" : "if"
+                  },
+                  "conditions" : {
+                    "type" : "structure",
+                    "structure" : {
+                      "conditionType" : {
+                        "type" : "literal",
+                        "literal" : 0
+                      },
+                      "conditionItems" : {
+                        "type" : "structure",
+                        "structure" : [ {
+                          "type" : "structure",
+                          "structure" : {
+                            "id" : {
+                              "type" : "literal",
+                              "literal" : "AWKUQ34P"
+                            },
+                            "conditionType" : {
+                              "type" : "literal",
+                              "literal" : 2
+                            },
+                            "operator" : {
+                              "type" : "literal",
+                              "literal" : 10
+                            },
+                            "operand" : {
+                              "type" : "expression",
+                              "expression" : "Y12TSZAG.ABCDG3XY"
+                            },
+                            "value" : {
+                              "type" : "literal",
+                              "literal" : "/api/page/document?path="
+                            }
+                          }
+                        }, {
+                          "type" : "structure",
+                          "structure" : {
+                            "id" : {
+                              "type" : "literal",
+                              "literal" : "Z9QW20W2"
+                            },
+                            "conditionType" : {
+                              "type" : "literal",
+                              "literal" : 2
+                            },
+                            "operator" : {
+                              "type" : "literal",
+                              "literal" : 0
+                            },
+                            "operand" : {
+                              "type" : "expression",
+                              "expression" : "J9KY8W03.CLHRS001"
+                            },
+                            "value" : {
+                              "type" : "literal",
+                              "literal" : 401
+                            }
+                          }
+                        } ]
+                      }
+                    }
+                  }
+                }
+              },
+              "elseCase" : {
+                "type" : "structure",
+                "structure" : {
+                  "identifier" : {
+                    "type" : "literal",
+                    "literal" : "else"
+                  }
+                }
+              },
+              "elseIfCases" : {
+                "type" : "structure",
+                "structure" : [ {
+                  "type" : "structure",
+                  "structure" : {
+                    "identifier" : {
+                      "type" : "literal",
+                      "literal" : "UK6LAK2Y"
+                    },
+                    "conditions" : {
+                      "type" : "structure",
+                      "structure" : {
+                        "conditionType" : {
+                          "type" : "literal",
+                          "literal" : 0
+                        },
+                        "conditionItems" : {
+                          "type" : "structure",
+                          "structure" : [ {
+                            "type" : "structure",
+                            "structure" : {
+                              "id" : {
+                                "type" : "literal",
+                                "literal" : "TNTGAGDM"
+                              },
+                              "conditionType" : {
+                                "type" : "literal",
+                                "literal" : 2
+                              },
+                              "operator" : {
+                                "type" : "literal",
+                                "literal" : 10
+                              },
+                              "operand" : {
+                                "type" : "expression",
+                                "literal" : "",
+                                "expression" : "Y12TSZAG.ABCDG3XY"
+                              },
+                              "value" : {
+                                "type" : "literal",
+                                "literal" : "/api/page/document?path="
+                              }
+                            }
+                          }, {
+                            "type" : "structure",
+                            "structure" : {
+                              "id" : {
+                                "type" : "literal",
+                                "literal" : "MNBK2MVM"
+                              },
+                              "conditionType" : {
+                                "type" : "literal",
+                                "literal" : 2
+                              },
+                              "operator" : {
+                                "type" : "literal",
+                                "literal" : 0
+                              },
+                              "operand" : {
+                                "type" : "expression",
+                                "literal" : "",
+                                "expression" : "J9KY8W03.CLHRS004"
+                              },
+                              "value" : {
+                                "type" : "literal",
+                                "literal" : "PHX_PAGE_NOT_FOUND"
+                              }
+                            }
+                          } ]
+                        }
+                      }
+                    }
+                  }
+                }, {
+                  "type" : "structure",
+                  "structure" : {
+                    "identifier" : {
+                      "type" : "literal",
+                      "literal" : "HG3XK9UC"
+                    },
+                    "conditions" : {
+                      "type" : "structure",
+                      "structure" : {
+                        "conditionType" : {
+                          "type" : "literal",
+                          "literal" : 0
+                        },
+                        "conditionItems" : {
+                          "type" : "structure",
+                          "structure" : [ {
+                            "type" : "structure",
+                            "structure" : {
+                              "id" : {
+                                "type" : "literal",
+                                "literal" : "W835S4SK"
+                              },
+                              "conditionType" : {
+                                "type" : "literal",
+                                "literal" : 2
+                              },
+                              "operator" : {
+                                "type" : "literal",
+                                "literal" : 10
+                              },
+                              "operand" : {
+                                "type" : "expression",
+                                "literal" : "",
+                                "expression" : "Y12TSZAG.ABCDG3XY"
+                              },
+                              "value" : {
+                                "type" : "literal",
+                                "literal" : "/api/page/document?path="
+                              }
+                            }
+                          }, {
+                            "type" : "structure",
+                            "structure" : {
+                              "id" : {
+                                "type" : "literal",
+                                "literal" : "GL9VVXOR"
+                              },
+                              "conditionType" : {
+                                "type" : "literal",
+                                "literal" : 2
+                              },
+                              "operator" : {
+                                "type" : "literal",
+                                "literal" : 0
+                              },
+                              "operand" : {
+                                "type" : "expression",
+                                "literal" : "",
+                                "expression" : "J9KY8W03.CLHRS001"
+                              },
+                              "value" : {
+                                "type" : "literal",
+                                "literal" : 403
+                              }
+                            }
+                          } ]
+                        }
+                      }
+                    }
+                  }
+                }, {
+                  "type" : "structure",
+                  "structure" : {
+                    "identifier" : {
+                      "type" : "literal",
+                      "literal" : "O1QOQ0XA"
+                    },
+                    "conditions" : {
+                      "type" : "structure",
+                      "structure" : {
+                        "conditionType" : {
+                          "type" : "literal",
+                          "literal" : 0
+                        },
+                        "conditionItems" : {
+                          "type" : "structure",
+                          "structure" : [ {
+                            "type" : "structure",
+                            "structure" : {
+                              "id" : {
+                                "type" : "literal",
+                                "literal" : "O4DJYSPS"
+                              },
+                              "conditionType" : {
+                                "type" : "literal",
+                                "literal" : 2
+                              },
+                              "operator" : {
+                                "type" : "literal",
+                                "literal" : 10
+                              },
+                              "operand" : {
+                                "type" : "expression",
+                                "literal" : "",
+                                "expression" : "Y12TSZAG.ABCDG3XY"
+                              },
+                              "value" : {
+                                "type" : "literal",
+                                "literal" : "/api/logic/server/"
+                              }
+                            }
+                          }, {
+                            "type" : "structure",
+                            "structure" : {
+                              "id" : {
+                                "type" : "literal",
+                                "literal" : "AZB7LSRQ"
+                              },
+                              "conditionType" : {
+                                "type" : "literal",
+                                "literal" : 2
+                              },
+                              "operator" : {
+                                "type" : "literal",
+                                "literal" : 18
+                              },
+                              "operand" : {
+                                "type" : "expression",
+                                "literal" : "",
+                                "expression" : "J9KY8W03.CLHRS004"
+                              },
+                              "value" : {
+                                "type" : "literal",
+                                "literal" : ""
+                              }
+                            }
+                          } ]
+                        }
+                      }
+                    }
+                  }
+                } ]
+              }
+            }
+          }
+        },
+        "attributes" : {
+          "position" : {
+            "x" : 122,
+            "y" : 405
+          }
+        }
+      }, {
+        "id" : "GGE3QA30",
+        "name" : "",
+        "pluginName" : "logic-core",
+        "identifier" : "if",
+        "content" : {
+          "conditions" : {
+            "type" : "structure",
+            "structure" : {
+              "ifCase" : {
+                "type" : "structure",
+                "structure" : {
+                  "identifier" : {
+                    "type" : "literal",
+                    "literal" : "if"
+                  },
+                  "conditions" : {
+                    "type" : "structure",
+                    "structure" : {
+                      "conditionType" : {
+                        "type" : "literal",
+                        "literal" : 0
+                      },
+                      "conditionItems" : {
+                        "type" : "structure",
+                        "structure" : [ {
+                          "type" : "structure",
+                          "structure" : {
+                            "conditionType" : {
+                              "type" : "literal",
+                              "literal" : 2
+                            },
+                            "id" : {
+                              "type" : "literal",
+                              "literal" : "IE26FM7V"
+                            },
+                            "operand" : {
+                              "type" : "expression",
+                              "expression" : "IsNullOrEmpty(Map.Get(J9KY8W03.CLHRS002,\"location\"))"
+                            },
+                            "operator" : {
+                              "type" : "literal",
+                              "literal" : 23
+                            },
+                            "value" : {
+                              "type" : "literal",
+                              "literal" : ""
+                            }
+                          }
+                        } ]
+                      }
+                    }
+                  }
+                }
+              },
+              "elseCase" : {
+                "type" : "structure",
+                "structure" : {
+                  "identifier" : {
+                    "type" : "literal",
+                    "literal" : "else"
+                  }
+                }
+              },
+              "elseIfCases" : {
+                "type" : "structure",
+                "structure" : [ ]
+              }
+            }
+          }
+        },
+        "attributes" : {
+          "position" : {
+            "x" : 415.4271536181684,
+            "y" : 405
+          }
+        }
+      }, {
+        "id" : "ZER67ZAR",
+        "name" : "导航到登录页",
+        "pluginName" : "logic-ui-interaction",
+        "identifier" : "destination",
+        "content" : {
+          "navigationType" : {
+            "type" : "literal",
+            "literal" : "internal"
+          },
+          "target" : {
+            "type" : "ref",
+            "literal" : "N2CM8UVJ"
+          },
+          "windowTarget" : {
+            "type" : "literal",
+            "literal" : "_self"
+          },
+          "href" : {
+            "type" : "literal",
+            "literal" : ""
+          },
+          "parameterValues" : {
+            "type" : "structure",
+            "structure" : {
+              "JB181FHE" : {
+                "type" : "expression",
+                "expression" : "Map.Get(Y12TSZAG.ZXCVB2NM,\"path\")"
+              }
+            }
+          }
+        },
+        "attributes" : {
+          "position" : {
+            "x" : 702.6150154656964,
+            "y" : 438.4610084671978
+          }
+        }
+      }, {
+        "id" : "PWNH7ZDA",
+        "name" : "结束",
+        "pluginName" : "logic-core",
+        "identifier" : "return",
+        "attributes" : {
+          "position" : {
+            "x" : 1143.9736813579088,
+            "y" : 582.3217413373386
+          }
+        }
+      }, {
+        "id" : "VUI3Z7O0",
+        "name" : "导航到无权限页",
+        "pluginName" : "logic-ui-interaction",
+        "identifier" : "destination",
+        "content" : {
+          "navigationType" : {
+            "type" : "literal",
+            "literal" : "internal"
+          },
+          "target" : {
+            "type" : "ref",
+            "literal" : "E1VVHYIZ"
+          },
+          "windowTarget" : {
+            "type" : "literal",
+            "literal" : "_self"
+          },
+          "href" : {
+            "type" : "literal",
+            "literal" : ""
+          }
+        },
+        "attributes" : {
+          "position" : {
+            "x" : 702.6150154656964,
+            "y" : 658.1268260228118
+          }
+        }
+      }, {
+        "id" : "GNLFAGY1",
+        "name" : "显示错误消息",
+        "pluginName" : "component-ant-design",
+        "identifier" : "message",
+        "content" : {
+          "content" : {
+            "type" : "expression",
+            "expression" : "IF(ISBLANK(J9KY8W03.CLHRS005),\"操作失败\",J9KY8W03.CLHRS005)"
+          },
+          "type" : {
+            "type" : "literal",
+            "literal" : "error"
+          },
+          "duration" : {
+            "type" : "literal",
+            "literal" : 3
+          }
+        },
+        "attributes" : {
+          "position" : {
+            "x" : 702.6150154656964,
+            "y" : 733.2277387218512
+          }
+        }
+      }, {
+        "id" : "OA6HGWQU",
+        "name" : "导航到未发现页",
+        "pluginName" : "logic-ui-interaction",
+        "identifier" : "destination",
+        "content" : {
+          "navigationType" : {
+            "type" : "literal",
+            "literal" : "internal"
+          },
+          "target" : {
+            "type" : "ref",
+            "literal" : "MJY1AF5A"
+          },
+          "windowTarget" : {
+            "type" : "literal",
+            "literal" : "_self"
+          },
+          "href" : {
+            "type" : "literal",
+            "literal" : ""
+          }
+        },
+        "attributes" : {
+          "position" : {
+            "x" : 702.6150154656964,
+            "y" : 582.3217413373386
+          }
+        }
+      }, {
+        "id" : "VYDRCEIQ",
+        "name" : "跳转到目标页",
+        "pluginName" : "logic-ui-interaction",
+        "identifier" : "destination",
+        "content" : {
+          "navigationType" : {
+            "type" : "literal",
+            "literal" : "external"
+          },
+          "target" : {
+            "type" : "ref"
+          },
+          "windowTarget" : {
+            "type" : "literal",
+            "literal" : "_self"
+          },
+          "href" : {
+            "type" : "expression",
+            "literal" : "",
+            "expression" : "Map.Get(J9KY8W03.CLHRS002,\"location\")&\"?redirectUri=\"&Map.Get(Y12TSZAG.ZXCVB2NM,\"path\")"
+          },
+          "parameterValues" : {
+            "type" : "structure",
+            "structure" : { }
+          }
+        },
+        "attributes" : {
+          "position" : {
+            "x" : 702.6150154656964,
+            "y" : 508.61592119003353
+          }
+        }
+      } ],
+      "edges" : [ {
+        "id" : "ARCR0L9Q",
+        "sourceId" : "TS1WB7IS",
+        "targetId" : "X1IU0P1C",
+        "sourcePosition" : "right",
+        "targetPosition" : "left"
+      }, {
+        "id" : "IL0S73UP",
+        "sourceId" : "X1IU0P1C",
+        "sourceAnchorId" : "if",
+        "targetId" : "GGE3QA30",
+        "sourcePosition" : "right",
+        "targetPosition" : "left"
+      }, {
+        "id" : "R6E2K645",
+        "sourceId" : "ZER67ZAR",
+        "targetId" : "PWNH7ZDA",
+        "sourcePosition" : "right",
+        "targetPosition" : "left"
+      }, {
+        "id" : "ZZ9S12QT",
+        "sourceId" : "X1IU0P1C",
+        "sourceAnchorId" : "O1QOQ0XA",
+        "targetId" : "GNLFAGY1",
+        "sourcePosition" : "right",
+        "targetPosition" : "left"
+      }, {
+        "id" : "FMWY27TE",
+        "sourceId" : "X1IU0P1C",
+        "sourceAnchorId" : "else",
+        "targetId" : "PWNH7ZDA",
+        "sourcePosition" : "right",
+        "targetPosition" : "left"
+      }, {
+        "id" : "IVLVGY3C",
+        "sourceId" : "GNLFAGY1",
+        "targetId" : "PWNH7ZDA",
+        "sourcePosition" : "right",
+        "targetPosition" : "left"
+      }, {
+        "id" : "SS0YGX35",
+        "sourceId" : "X1IU0P1C",
+        "sourceAnchorId" : "HG3XK9UC",
+        "targetId" : "VUI3Z7O0",
+        "sourcePosition" : "right",
+        "targetPosition" : "left"
+      }, {
+        "id" : "T4F0CDAR",
+        "sourceId" : "X1IU0P1C",
+        "sourceAnchorId" : "UK6LAK2Y",
+        "targetId" : "OA6HGWQU",
+        "sourcePosition" : "right",
+        "targetPosition" : "left"
+      }, {
+        "id" : "FZO6SYGD",
+        "sourceId" : "OA6HGWQU",
+        "targetId" : "PWNH7ZDA",
+        "sourcePosition" : "right",
+        "targetPosition" : "left"
+      }, {
+        "id" : "HJDGGSAT",
+        "sourceId" : "VUI3Z7O0",
+        "targetId" : "PWNH7ZDA",
+        "sourcePosition" : "right",
+        "targetPosition" : "left"
+      }, {
+        "id" : "LTF8XMNP",
+        "sourceId" : "VYDRCEIQ",
+        "targetId" : "PWNH7ZDA",
+        "sourcePosition" : "right",
+        "targetPosition" : "left"
+      }, {
+        "id" : "I7H9ONXC",
+        "sourceId" : "GGE3QA30",
+        "sourceAnchorId" : "if",
+        "targetId" : "ZER67ZAR",
+        "sourcePosition" : "right",
+        "targetPosition" : "left"
+      }, {
+        "id" : "F0E1RM51",
+        "sourceId" : "GGE3QA30",
+        "sourceAnchorId" : "else",
+        "targetId" : "VYDRCEIQ",
+        "sourcePosition" : "right",
+        "targetPosition" : "left"
+      } ]
+    }
+  }
+}

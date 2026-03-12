@@ -1,0 +1,2159 @@
+{
+  "id" : "N2CM8UVJ",
+  "name" : "登录页",
+  "type" : "page",
+  "rootElement" : {
+    "id" : "Q2M2UTUP",
+    "name" : "登录页根布局",
+    "type" : "linear-layout",
+    "pluginName" : "component-common",
+    "styles" : [ {
+      "pseudo" : "none",
+      "target" : "root",
+      "cssProperties" : [ {
+        "name" : "size",
+        "type" : "literal",
+        "literal" : {
+          "width" : "",
+          "height" : "100%",
+          "minWidth" : "",
+          "minHeight" : "",
+          "maxWidth" : "",
+          "maxHeight" : ""
+        }
+      }, {
+        "name" : "border",
+        "type" : "literal",
+        "literal" : { }
+      }, {
+        "name" : "backgroundColor",
+        "type" : "literal",
+        "literal" : "rgb(59,130,246)"
+      }, {
+        "name" : "display",
+        "type" : "literal",
+        "literal" : "flex"
+      }, {
+        "name" : "flexDirection",
+        "type" : "literal",
+        "literal" : "row"
+      }, {
+        "name" : "justifyContent",
+        "type" : "literal",
+        "literal" : "center"
+      }, {
+        "name" : "alignItems",
+        "type" : "literal",
+        "literal" : "center"
+      } ]
+    } ],
+    "events" : [ ],
+    "properties" : [ ],
+    "children" : [ {
+      "id" : "DQY1EKCX",
+      "name" : "登录表单容器",
+      "type" : "linear-layout",
+      "pluginName" : "component-common",
+      "styles" : [ {
+        "target" : "root",
+        "pseudo" : "none",
+        "cssProperties" : [ {
+          "name" : "size",
+          "type" : "literal",
+          "literal" : {
+            "width" : "400px",
+            "height" : ""
+          }
+        }, {
+          "name" : "backgroundColor",
+          "type" : "literal",
+          "literal" : "rgb(255,255,255)"
+        }, {
+          "name" : "alignSelf",
+          "type" : "literal",
+          "literal" : ""
+        }, {
+          "name" : "borderRadius",
+          "type" : "literal",
+          "literal" : {
+            "topLeft" : "15px",
+            "topRight" : "15px",
+            "bottomRight" : "15px",
+            "bottomLeft" : "15px"
+          }
+        }, {
+          "name" : "padding",
+          "type" : "literal",
+          "literal" : {
+            "top" : "10px",
+            "right" : "20px",
+            "bottom" : "20px",
+            "left" : "20px"
+          }
+        }, {
+          "name" : "border",
+          "type" : "literal",
+          "literal" : {
+            "top" : {
+              "width" : 2,
+              "line" : "solid",
+              "color" : "rgb(238,238,238)"
+            },
+            "right" : {
+              "width" : 2,
+              "line" : "solid",
+              "color" : "rgb(238,238,238)"
+            },
+            "bottom" : {
+              "width" : 2,
+              "line" : "solid",
+              "color" : "rgb(238,238,238)"
+            },
+            "left" : {
+              "width" : 2,
+              "line" : "solid",
+              "color" : "rgb(238,238,238)"
+            }
+          }
+        }, {
+          "name" : "customStyle",
+          "type" : "literal",
+          "literal" : "height: fit-content;"
+        } ]
+      } ],
+      "events" : [ ],
+      "properties" : [ ],
+      "children" : [ {
+        "id" : "VF060PXB",
+        "name" : "登录标题文本",
+        "type" : "text",
+        "pluginName" : "component-common",
+        "styles" : [ {
+          "target" : "root",
+          "pseudo" : "none",
+          "cssProperties" : [ {
+            "name" : "textAlign",
+            "type" : "literal",
+            "literal" : "center"
+          } ]
+        } ],
+        "events" : [ ],
+        "properties" : [ {
+          "name" : "text",
+          "type" : "literal",
+          "literal" : "登录"
+        }, {
+          "name" : "isHeader",
+          "type" : "literal",
+          "literal" : true
+        }, {
+          "name" : "level",
+          "type" : "literal",
+          "literal" : 2
+        }, {
+          "name" : "wrapping",
+          "type" : "literal",
+          "literal" : "normal"
+        }, {
+          "name" : "ellipsis",
+          "type" : "literal",
+          "literal" : false
+        } ],
+        "children" : [ ],
+        "description" : "",
+        "visible" : {
+          "type" : "expression",
+          "expression" : ""
+        }
+      }, {
+        "id" : "JB3FPP55",
+        "name" : "表单",
+        "type" : "form",
+        "pluginName" : "component-ant-design",
+        "styles" : [ ],
+        "events" : [ ],
+        "properties" : [ {
+          "name" : "layout",
+          "type" : "literal",
+          "literal" : "multi-column"
+        }, {
+          "name" : "columns",
+          "type" : "literal",
+          "literal" : 1
+        }, {
+          "name" : "wrap",
+          "type" : "literal",
+          "literal" : true
+        }, {
+          "name" : "rowGap",
+          "type" : "literal",
+          "literal" : 24
+        }, {
+          "name" : "columnGap",
+          "type" : "literal",
+          "literal" : 24
+        }, {
+          "name" : "labelLayout",
+          "type" : "literal",
+          "literal" : "horizontal"
+        }, {
+          "name" : "labelDistance",
+          "type" : "literal",
+          "literal" : 8
+        }, {
+          "name" : "labelSize",
+          "type" : "literal",
+          "literal" : "auto"
+        }, {
+          "name" : "customLabelSize",
+          "type" : "literal",
+          "literal" : 14
+        }, {
+          "name" : "labelWrap",
+          "type" : "literal",
+          "literal" : false
+        }, {
+          "name" : "labelAlign",
+          "type" : "literal",
+          "literal" : "right"
+        }, {
+          "name" : "colon",
+          "type" : "literal",
+          "literal" : true
+        } ],
+        "children" : [ {
+          "id" : "CNMVYPUL",
+          "name" : "账号表单项",
+          "type" : "form-item",
+          "pluginName" : "component-ant-design",
+          "styles" : [ ],
+          "events" : [ ],
+          "properties" : [ {
+            "name" : "required",
+            "type" : "literal",
+            "literal" : false
+          }, {
+            "name" : "tooltip",
+            "type" : "literal",
+            "literal" : ""
+          }, {
+            "name" : "showExtraTip",
+            "type" : "literal",
+            "literal" : false
+          }, {
+            "name" : "colSpan",
+            "type" : "literal",
+            "literal" : 1
+          }, {
+            "name" : "showLabel",
+            "type" : "literal",
+            "literal" : "hide"
+          }, {
+            "name" : "labelLayout",
+            "type" : "literal",
+            "literal" : "inherit"
+          }, {
+            "name" : "labelSize",
+            "type" : "literal",
+            "literal" : "middle"
+          }, {
+            "name" : "customLabelSize",
+            "type" : "literal",
+            "literal" : 100
+          }, {
+            "name" : "labelAlign",
+            "type" : "literal",
+            "literal" : "right"
+          } ],
+          "children" : [ {
+            "id" : "IQC66A2Q",
+            "name" : "账号标签插槽",
+            "type" : "slot",
+            "pluginName" : "component-common",
+            "styles" : [ ],
+            "events" : [ ],
+            "properties" : [ ],
+            "children" : [ {
+              "id" : "FJB366GY",
+              "name" : "账号标签文本",
+              "type" : "text",
+              "pluginName" : "component-common",
+              "styles" : [ ],
+              "events" : [ ],
+              "properties" : [ {
+                "name" : "text",
+                "type" : "literal",
+                "literal" : "账号"
+              }, {
+                "name" : "isHeader",
+                "type" : "literal",
+                "literal" : false
+              }, {
+                "name" : "level",
+                "type" : "literal",
+                "literal" : 1
+              }, {
+                "name" : "wrapping",
+                "type" : "literal",
+                "literal" : "normal"
+              }, {
+                "name" : "ellipsis",
+                "type" : "literal",
+                "literal" : false
+              } ],
+              "children" : [ ],
+              "description" : "",
+              "visible" : {
+                "type" : "expression",
+                "expression" : ""
+              }
+            } ],
+            "description" : "",
+            "visible" : {
+              "type" : "expression",
+              "expression" : ""
+            },
+            "slotTarget" : "label"
+          }, {
+            "id" : "DIJAYG1L",
+            "name" : "账号内容插槽",
+            "type" : "slot",
+            "pluginName" : "component-common",
+            "styles" : [ ],
+            "events" : [ ],
+            "properties" : [ ],
+            "children" : [ {
+              "id" : "FWI5QNNB",
+              "name" : "账号输入框",
+              "type" : "input",
+              "pluginName" : "component-ant-design",
+              "styles" : [ {
+                "pseudo" : "none",
+                "target" : "root",
+                "cssProperties" : [ {
+                  "name" : "size",
+                  "type" : "literal",
+                  "literal" : {
+                    "width" : "100%",
+                    "height" : "",
+                    "minWidth" : "",
+                    "minHeight" : "",
+                    "maxWidth" : "",
+                    "maxHeight" : ""
+                  }
+                }, {
+                  "name" : "border",
+                  "type" : "literal",
+                  "literal" : { }
+                } ]
+              } ],
+              "events" : [ ],
+              "properties" : [ {
+                "name" : "value",
+                "type" : "variable",
+                "variable" : "M4EUTUE0"
+              }, {
+                "name" : "type",
+                "type" : "literal",
+                "literal" : "input"
+              }, {
+                "name" : "placeholder",
+                "type" : "literal",
+                "literal" : "请输入账号"
+              }, {
+                "name" : "maxLength",
+                "type" : "literal",
+                "literal" : ""
+              }, {
+                "name" : "clearAsNull",
+                "type" : "literal",
+                "literal" : true
+              }, {
+                "name" : "dataValidation",
+                "type" : "literal",
+                "literal" : {
+                  "required" : {
+                    "type" : "literal",
+                    "literal" : true
+                  },
+                  "requiredErrorMessage" : {
+                    "type" : "literal",
+                    "literal" : "账号不能为空"
+                  }
+                }
+              }, {
+                "name" : "size",
+                "type" : "literal",
+                "literal" : "middle"
+              }, {
+                "name" : "variant",
+                "type" : "literal",
+                "literal" : "outlined"
+              }, {
+                "name" : "showCount",
+                "type" : "literal",
+                "literal" : false
+              }, {
+                "name" : "status",
+                "type" : "literal",
+                "literal" : ""
+              }, {
+                "name" : "showPrefixIcon",
+                "type" : "literal",
+                "literal" : false
+              }, {
+                "name" : "showSuffixIcon",
+                "type" : "literal",
+                "literal" : false
+              }, {
+                "name" : "showAddonBefore",
+                "type" : "literal",
+                "literal" : false
+              }, {
+                "name" : "showAddonAfter",
+                "type" : "literal",
+                "literal" : false
+              }, {
+                "name" : "autoSize",
+                "type" : "literal",
+                "literal" : false
+              }, {
+                "name" : "rows",
+                "type" : "literal",
+                "literal" : ""
+              }, {
+                "name" : "minRows",
+                "type" : "literal",
+                "literal" : ""
+              }, {
+                "name" : "maxRows",
+                "type" : "literal",
+                "literal" : ""
+              }, {
+                "name" : "disabled",
+                "type" : "literal",
+                "literal" : false
+              }, {
+                "name" : "readonly",
+                "type" : "literal",
+                "literal" : false
+              }, {
+                "name" : "allowClear",
+                "type" : "literal",
+                "literal" : false
+              }, {
+                "name" : "loading",
+                "type" : "literal",
+                "literal" : false
+              } ],
+              "children" : [ ],
+              "description" : "",
+              "visible" : {
+                "type" : "expression",
+                "expression" : ""
+              }
+            } ],
+            "description" : "",
+            "visible" : {
+              "type" : "expression",
+              "expression" : ""
+            },
+            "slotTarget" : "content"
+          } ],
+          "description" : "",
+          "visible" : {
+            "type" : "expression",
+            "expression" : ""
+          }
+        }, {
+          "id" : "E9X9IX97",
+          "name" : "密码表单项",
+          "type" : "form-item",
+          "pluginName" : "component-ant-design",
+          "styles" : [ ],
+          "events" : [ ],
+          "properties" : [ {
+            "name" : "required",
+            "type" : "literal",
+            "literal" : false
+          }, {
+            "name" : "tooltip",
+            "type" : "literal",
+            "literal" : ""
+          }, {
+            "name" : "showExtraTip",
+            "type" : "literal",
+            "literal" : false
+          }, {
+            "name" : "colSpan",
+            "type" : "literal",
+            "literal" : 1
+          }, {
+            "name" : "showLabel",
+            "type" : "literal",
+            "literal" : "hide"
+          }, {
+            "name" : "labelLayout",
+            "type" : "literal",
+            "literal" : "inherit"
+          }, {
+            "name" : "labelSize",
+            "type" : "literal",
+            "literal" : "middle"
+          }, {
+            "name" : "customLabelSize",
+            "type" : "literal",
+            "literal" : 100
+          }, {
+            "name" : "labelAlign",
+            "type" : "literal",
+            "literal" : "right"
+          } ],
+          "children" : [ {
+            "id" : "Y9RCORMA",
+            "name" : "密码标签插槽",
+            "type" : "slot",
+            "pluginName" : "component-common",
+            "styles" : [ ],
+            "events" : [ ],
+            "properties" : [ ],
+            "children" : [ {
+              "id" : "ZZS1QNW9",
+              "name" : "密码标签文本",
+              "type" : "text",
+              "pluginName" : "component-common",
+              "styles" : [ ],
+              "events" : [ ],
+              "properties" : [ {
+                "name" : "text",
+                "type" : "literal",
+                "literal" : "密码"
+              }, {
+                "name" : "isHeader",
+                "type" : "literal",
+                "literal" : false
+              }, {
+                "name" : "level",
+                "type" : "literal",
+                "literal" : 1
+              }, {
+                "name" : "wrapping",
+                "type" : "literal",
+                "literal" : "normal"
+              }, {
+                "name" : "ellipsis",
+                "type" : "literal",
+                "literal" : false
+              } ],
+              "children" : [ ],
+              "description" : "",
+              "visible" : {
+                "type" : "expression",
+                "expression" : ""
+              }
+            } ],
+            "description" : "",
+            "visible" : {
+              "type" : "expression",
+              "expression" : ""
+            },
+            "slotTarget" : "label"
+          }, {
+            "id" : "UVN6EEZG",
+            "name" : "密码内容插槽",
+            "type" : "slot",
+            "pluginName" : "component-common",
+            "styles" : [ ],
+            "events" : [ ],
+            "properties" : [ ],
+            "children" : [ {
+              "id" : "JPUC5JNG",
+              "name" : "密码输入框",
+              "type" : "input",
+              "pluginName" : "component-ant-design",
+              "styles" : [ {
+                "pseudo" : "none",
+                "target" : "root",
+                "cssProperties" : [ {
+                  "name" : "size",
+                  "type" : "literal",
+                  "literal" : {
+                    "width" : "100%",
+                    "height" : "",
+                    "minWidth" : "",
+                    "minHeight" : "",
+                    "maxWidth" : "",
+                    "maxHeight" : ""
+                  }
+                }, {
+                  "name" : "border",
+                  "type" : "literal",
+                  "literal" : { }
+                } ]
+              } ],
+              "events" : [ ],
+              "properties" : [ {
+                "name" : "value",
+                "type" : "variable",
+                "variable" : "LI56DKKU"
+              }, {
+                "name" : "type",
+                "type" : "literal",
+                "literal" : "password"
+              }, {
+                "name" : "placeholder",
+                "type" : "literal",
+                "literal" : "请输入密码"
+              }, {
+                "name" : "maxLength",
+                "type" : "literal",
+                "literal" : ""
+              }, {
+                "name" : "clearAsNull",
+                "type" : "literal",
+                "literal" : true
+              }, {
+                "name" : "dataValidation",
+                "type" : "literal",
+                "literal" : {
+                  "required" : {
+                    "type" : "literal",
+                    "literal" : true
+                  },
+                  "requiredErrorMessage" : {
+                    "type" : "literal",
+                    "literal" : "密码不能为空"
+                  }
+                }
+              }, {
+                "name" : "size",
+                "type" : "literal",
+                "literal" : "middle"
+              }, {
+                "name" : "variant",
+                "type" : "literal",
+                "literal" : "outlined"
+              }, {
+                "name" : "showCount",
+                "type" : "literal",
+                "literal" : false
+              }, {
+                "name" : "status",
+                "type" : "literal",
+                "literal" : ""
+              }, {
+                "name" : "showPrefixIcon",
+                "type" : "literal",
+                "literal" : false
+              }, {
+                "name" : "showSuffixIcon",
+                "type" : "literal",
+                "literal" : false
+              }, {
+                "name" : "showAddonBefore",
+                "type" : "literal",
+                "literal" : false
+              }, {
+                "name" : "showAddonAfter",
+                "type" : "literal",
+                "literal" : false
+              }, {
+                "name" : "autoSize",
+                "type" : "literal",
+                "literal" : false
+              }, {
+                "name" : "rows",
+                "type" : "literal",
+                "literal" : ""
+              }, {
+                "name" : "minRows",
+                "type" : "literal",
+                "literal" : ""
+              }, {
+                "name" : "maxRows",
+                "type" : "literal",
+                "literal" : ""
+              }, {
+                "name" : "disabled",
+                "type" : "literal",
+                "literal" : false
+              }, {
+                "name" : "readonly",
+                "type" : "literal",
+                "literal" : false
+              }, {
+                "name" : "allowClear",
+                "type" : "literal",
+                "literal" : false
+              }, {
+                "name" : "loading",
+                "type" : "literal",
+                "literal" : false
+              } ],
+              "children" : [ ],
+              "description" : "",
+              "visible" : {
+                "type" : "expression",
+                "expression" : ""
+              }
+            } ],
+            "description" : "",
+            "visible" : {
+              "type" : "expression",
+              "expression" : ""
+            },
+            "slotTarget" : "content"
+          } ],
+          "description" : "",
+          "visible" : {
+            "type" : "expression",
+            "expression" : ""
+          }
+        }, {
+          "id" : "L86WSEW2",
+          "name" : "记住密码表单项",
+          "type" : "form-item",
+          "pluginName" : "component-ant-design",
+          "styles" : [ ],
+          "events" : [ ],
+          "properties" : [ {
+            "name" : "required",
+            "type" : "literal",
+            "literal" : false
+          }, {
+            "name" : "tooltip",
+            "type" : "literal",
+            "literal" : ""
+          }, {
+            "name" : "showExtraTip",
+            "type" : "literal",
+            "literal" : false
+          }, {
+            "name" : "colSpan",
+            "type" : "literal",
+            "literal" : 1
+          }, {
+            "name" : "showLabel",
+            "type" : "literal",
+            "literal" : "hide"
+          }, {
+            "name" : "labelLayout",
+            "type" : "literal",
+            "literal" : "inherit"
+          }, {
+            "name" : "labelSize",
+            "type" : "literal",
+            "literal" : "middle"
+          }, {
+            "name" : "customLabelSize",
+            "type" : "literal",
+            "literal" : 100
+          }, {
+            "name" : "labelAlign",
+            "type" : "literal",
+            "literal" : "right"
+          } ],
+          "children" : [ {
+            "id" : "RVIKNJOO",
+            "name" : "记住密码标签插槽",
+            "type" : "slot",
+            "pluginName" : "component-common",
+            "styles" : [ ],
+            "events" : [ ],
+            "properties" : [ ],
+            "children" : [ {
+              "id" : "ZC30JGWB",
+              "name" : "记住密码标签文本",
+              "type" : "text",
+              "pluginName" : "component-common",
+              "styles" : [ ],
+              "events" : [ ],
+              "properties" : [ {
+                "name" : "text",
+                "type" : "literal",
+                "literal" : "记住我"
+              }, {
+                "name" : "isHeader",
+                "type" : "literal",
+                "literal" : false
+              }, {
+                "name" : "level",
+                "type" : "literal",
+                "literal" : 1
+              }, {
+                "name" : "wrapping",
+                "type" : "literal",
+                "literal" : "normal"
+              }, {
+                "name" : "ellipsis",
+                "type" : "literal",
+                "literal" : false
+              } ],
+              "children" : [ ],
+              "description" : "",
+              "visible" : {
+                "type" : "expression",
+                "expression" : ""
+              }
+            } ],
+            "description" : "",
+            "visible" : {
+              "type" : "expression",
+              "expression" : ""
+            },
+            "slotTarget" : "label"
+          }, {
+            "id" : "FWJB95VA",
+            "name" : "记住密码内容插槽",
+            "type" : "slot",
+            "pluginName" : "component-common",
+            "styles" : [ ],
+            "events" : [ ],
+            "properties" : [ ],
+            "children" : [ {
+              "id" : "LPVB13AO",
+              "name" : "记住密码复选框",
+              "type" : "checkbox",
+              "pluginName" : "component-ant-design",
+              "styles" : [ {
+                "target" : "root",
+                "pseudo" : "none",
+                "cssProperties" : [ {
+                  "name" : "position",
+                  "type" : "literal",
+                  "literal" : "relative"
+                } ]
+              } ],
+              "events" : [ ],
+              "properties" : [ {
+                "name" : "checked",
+                "type" : "variable",
+                "variable" : "Z6AMU6X4"
+              }, {
+                "name" : "checkboxBorderHover",
+                "type" : "literal",
+                "literal" : "#1677ff"
+              }, {
+                "name" : "checkboxBgActive",
+                "type" : "literal",
+                "literal" : "#1677ff"
+              }, {
+                "name" : "checkboxCheckedBgHover",
+                "type" : "literal",
+                "literal" : "#4096ff"
+              }, {
+                "name" : "checkboxColorActive",
+                "type" : "literal",
+                "literal" : "#ffffffd9"
+              }, {
+                "name" : "dataValidation",
+                "type" : "literal",
+                "literal" : ""
+              }, {
+                "name" : "disabled",
+                "type" : "literal",
+                "literal" : false
+              } ],
+              "children" : [ {
+                "id" : "MU45F33Y",
+                "name" : "复选框文本插槽",
+                "type" : "slot",
+                "pluginName" : "component-common",
+                "styles" : [ ],
+                "events" : [ ],
+                "properties" : [ ],
+                "children" : [ {
+                  "id" : "LO9U9ZKG",
+                  "name" : "复选框内部文本",
+                  "type" : "text",
+                  "pluginName" : "component-common",
+                  "styles" : [ ],
+                  "events" : [ ],
+                  "properties" : [ {
+                    "name" : "text",
+                    "type" : "literal",
+                    "literal" : "保持登录状态"
+                  }, {
+                    "name" : "isHeader",
+                    "type" : "literal",
+                    "literal" : false
+                  }, {
+                    "name" : "level",
+                    "type" : "literal",
+                    "literal" : 1
+                  }, {
+                    "name" : "wrapping",
+                    "type" : "literal",
+                    "literal" : "normal"
+                  }, {
+                    "name" : "ellipsis",
+                    "type" : "literal",
+                    "literal" : false
+                  } ],
+                  "children" : [ ],
+                  "description" : "",
+                  "visible" : {
+                    "type" : "expression",
+                    "expression" : ""
+                  }
+                } ],
+                "description" : "",
+                "visible" : {
+                  "type" : "expression",
+                  "expression" : ""
+                },
+                "slotTarget" : "item"
+              } ],
+              "description" : "",
+              "visible" : {
+                "type" : "expression",
+                "expression" : ""
+              }
+            } ],
+            "description" : "",
+            "visible" : {
+              "type" : "expression",
+              "expression" : ""
+            },
+            "slotTarget" : "content"
+          } ],
+          "description" : "",
+          "visible" : {
+            "type" : "expression",
+            "expression" : ""
+          }
+        }, {
+          "id" : "KG2BE2T4",
+          "name" : "登录按钮表单项",
+          "type" : "form-item",
+          "pluginName" : "component-ant-design",
+          "styles" : [ ],
+          "events" : [ ],
+          "properties" : [ {
+            "name" : "required",
+            "type" : "literal",
+            "literal" : false
+          }, {
+            "name" : "tooltip",
+            "type" : "literal",
+            "literal" : ""
+          }, {
+            "name" : "showExtraTip",
+            "type" : "literal",
+            "literal" : false
+          }, {
+            "name" : "colSpan",
+            "type" : "literal",
+            "literal" : 1
+          }, {
+            "name" : "showLabel",
+            "type" : "literal",
+            "literal" : "hide"
+          }, {
+            "name" : "labelLayout",
+            "type" : "literal",
+            "literal" : "inherit"
+          }, {
+            "name" : "labelSize",
+            "type" : "literal",
+            "literal" : "middle"
+          }, {
+            "name" : "customLabelSize",
+            "type" : "literal",
+            "literal" : 100
+          }, {
+            "name" : "labelAlign",
+            "type" : "literal",
+            "literal" : "right"
+          } ],
+          "children" : [ {
+            "id" : "FJAX3YFA",
+            "name" : "登录按钮标签插槽",
+            "type" : "slot",
+            "pluginName" : "component-common",
+            "styles" : [ ],
+            "events" : [ ],
+            "properties" : [ ],
+            "children" : [ {
+              "id" : "RR6X3P05",
+              "name" : "登录按钮标签文本",
+              "type" : "text",
+              "pluginName" : "component-common",
+              "styles" : [ ],
+              "events" : [ ],
+              "properties" : [ {
+                "name" : "text",
+                "type" : "literal",
+                "literal" : "操作"
+              }, {
+                "name" : "isHeader",
+                "type" : "literal",
+                "literal" : false
+              }, {
+                "name" : "level",
+                "type" : "literal",
+                "literal" : 1
+              }, {
+                "name" : "wrapping",
+                "type" : "literal",
+                "literal" : "normal"
+              }, {
+                "name" : "ellipsis",
+                "type" : "literal",
+                "literal" : false
+              } ],
+              "children" : [ ],
+              "description" : "",
+              "visible" : {
+                "type" : "expression",
+                "expression" : ""
+              }
+            } ],
+            "description" : "",
+            "visible" : {
+              "type" : "expression",
+              "expression" : ""
+            },
+            "slotTarget" : "label"
+          }, {
+            "id" : "J7DQUVOO",
+            "name" : "登录按钮内容插槽",
+            "type" : "slot",
+            "pluginName" : "component-common",
+            "styles" : [ ],
+            "events" : [ ],
+            "properties" : [ ],
+            "children" : [ {
+              "id" : "YE5K8V4D",
+              "name" : "登录按钮",
+              "type" : "button",
+              "pluginName" : "component-ant-design",
+              "styles" : [ {
+                "target" : "root",
+                "pseudo" : "none",
+                "cssProperties" : [ {
+                  "name" : "size",
+                  "type" : "literal",
+                  "literal" : {
+                    "width" : "100%"
+                  }
+                } ]
+              } ],
+              "events" : [ {
+                "id" : "T1M6DTME",
+                "name" : "单击",
+                "description" : "",
+                "variables" : [ {
+                  "id" : "YVKH5GQ2",
+                  "name" : "message",
+                  "dataType" : {
+                    "typeId" : "String"
+                  },
+                  "description" : ""
+                }, {
+                  "id" : "QHEGRP7Z",
+                  "name" : "success",
+                  "dataType" : {
+                    "typeId" : "Boolean"
+                  },
+                  "description" : ""
+                }, {
+                  "id" : "TC1NZF72",
+                  "name" : "isValid",
+                  "dataType" : {
+                    "typeId" : "Boolean"
+                  },
+                  "description" : "",
+                  "defaultValue" : {
+                    "type" : "literal",
+                    "literal" : ""
+                  }
+                } ],
+                "parameters" : [ ],
+                "returnValues" : [ ],
+                "diagram" : {
+                  "nodes" : [ {
+                    "id" : "F8SEGALW",
+                    "name" : "开始",
+                    "pluginName" : "",
+                    "identifier" : "",
+                    "attributes" : {
+                      "position" : {
+                        "x" : -504.00320053100586,
+                        "y" : 200
+                      }
+                    },
+                    "isStartPoint" : true
+                  }, {
+                    "id" : "BBD3GMJ9",
+                    "name" : "结束",
+                    "pluginName" : "logic-core",
+                    "identifier" : "return",
+                    "attributes" : {
+                      "position" : {
+                        "x" : 1253.1484375,
+                        "y" : 270
+                      }
+                    }
+                  }, {
+                    "id" : "K3O1VMJN",
+                    "pluginName" : "logic-core",
+                    "identifier" : "call-logic",
+                    "content" : {
+                      "logicRef" : {
+                        "type" : "ref",
+                        "literal" : "BERZKY8F"
+                      },
+                      "parameters" : {
+                        "type" : "structure",
+                        "structure" : [ {
+                          "type" : "structure",
+                          "structure" : {
+                            "id" : {
+                              "type" : "literal",
+                              "literal" : "N43VGR9X"
+                            },
+                            "value" : {
+                              "type" : "expression",
+                              "expression" : "M4EUTUE0"
+                            }
+                          }
+                        }, {
+                          "type" : "structure",
+                          "structure" : {
+                            "id" : {
+                              "type" : "literal",
+                              "literal" : "L42U25EW"
+                            },
+                            "value" : {
+                              "type" : "expression",
+                              "expression" : "LI56DKKU"
+                            }
+                          }
+                        }, {
+                          "type" : "structure",
+                          "structure" : {
+                            "id" : {
+                              "type" : "literal",
+                              "literal" : "BLHQMBTN"
+                            },
+                            "value" : {
+                              "type" : "expression",
+                              "expression" : "Z6AMU6X4"
+                            }
+                          }
+                        } ]
+                      },
+                      "returnValues" : {
+                        "type" : "structure",
+                        "structure" : [ {
+                          "type" : "structure",
+                          "structure" : {
+                            "id" : {
+                              "type" : "literal",
+                              "literal" : "MQ9YRBCS"
+                            },
+                            "variable" : {
+                              "type" : "variable",
+                              "variable" : "YVKH5GQ2"
+                            }
+                          }
+                        }, {
+                          "type" : "structure",
+                          "structure" : {
+                            "id" : {
+                              "type" : "literal",
+                              "literal" : "F1ADXQ47"
+                            },
+                            "variable" : {
+                              "type" : "variable",
+                              "variable" : "QHEGRP7Z"
+                            }
+                          }
+                        } ]
+                      }
+                    },
+                    "attributes" : {
+                      "position" : {
+                        "x" : 229,
+                        "y" : 200
+                      }
+                    }
+                  }, {
+                    "id" : "FS4P67M5",
+                    "pluginName" : "logic-core",
+                    "identifier" : "if",
+                    "content" : {
+                      "conditions" : {
+                        "type" : "structure",
+                        "structure" : {
+                          "ifCase" : {
+                            "type" : "structure",
+                            "structure" : {
+                              "identifier" : {
+                                "type" : "literal",
+                                "literal" : "if"
+                              },
+                              "conditions" : {
+                                "type" : "structure",
+                                "structure" : {
+                                  "conditionType" : {
+                                    "type" : "literal",
+                                    "literal" : 0
+                                  },
+                                  "conditionItems" : {
+                                    "type" : "structure",
+                                    "structure" : [ {
+                                      "type" : "structure",
+                                      "structure" : {
+                                        "id" : {
+                                          "type" : "literal",
+                                          "literal" : "XQDZVKHW"
+                                        },
+                                        "conditionType" : {
+                                          "type" : "literal",
+                                          "literal" : 2
+                                        },
+                                        "operator" : {
+                                          "type" : "literal",
+                                          "literal" : 0
+                                        },
+                                        "operand" : {
+                                          "type" : "expression",
+                                          "literal" : "",
+                                          "expression" : "QHEGRP7Z"
+                                        },
+                                        "value" : {
+                                          "type" : "literal",
+                                          "literal" : true
+                                        }
+                                      }
+                                    } ]
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "elseCase" : {
+                            "type" : "structure",
+                            "structure" : {
+                              "identifier" : {
+                                "type" : "literal",
+                                "literal" : "else"
+                              }
+                            }
+                          },
+                          "elseIfCases" : {
+                            "type" : "structure",
+                            "structure" : [ ]
+                          }
+                        }
+                      }
+                    },
+                    "attributes" : {
+                      "position" : {
+                        "x" : 477.7996292114258,
+                        "y" : 200
+                      }
+                    }
+                  }, {
+                    "id" : "ZAAEJOF7",
+                    "pluginName" : "component-ant-design",
+                    "identifier" : "message",
+                    "content" : {
+                      "content" : {
+                        "type" : "expression",
+                        "literal" : "",
+                        "expression" : "YVKH5GQ2"
+                      },
+                      "type" : {
+                        "type" : "literal",
+                        "literal" : "error"
+                      },
+                      "duration" : {
+                        "type" : "literal",
+                        "literal" : 3
+                      }
+                    },
+                    "attributes" : {
+                      "position" : {
+                        "x" : 736.6994438171387,
+                        "y" : 306
+                      }
+                    }
+                  }, {
+                    "id" : "PAZIUEAP",
+                    "pluginName" : "logic-core",
+                    "identifier" : "return",
+                    "content" : { },
+                    "attributes" : {
+                      "position" : {
+                        "x" : 225.57178115844727,
+                        "y" : 120.19999694824219
+                      }
+                    }
+                  }, {
+                    "id" : "Z9TG5RVH",
+                    "pluginName" : "logic-core",
+                    "identifier" : "call-logic",
+                    "content" : {
+                      "itemType" : {
+                        "type" : "literal",
+                        "literal" : "logic"
+                      },
+                      "logicRef" : {
+                        "type" : "ref",
+                        "literal" : "JB3FPP55.validate"
+                      },
+                      "parameters" : {
+                        "type" : "structure",
+                        "structure" : [ ]
+                      },
+                      "returnValues" : {
+                        "type" : "structure",
+                        "structure" : [ {
+                          "type" : "structure",
+                          "structure" : {
+                            "id" : {
+                              "type" : "literal",
+                              "literal" : "isValid"
+                            },
+                            "variable" : {
+                              "type" : "variable",
+                              "variable" : "TC1NZF72"
+                            }
+                          }
+                        } ]
+                      }
+                    },
+                    "attributes" : {
+                      "position" : {
+                        "x" : -360.5,
+                        "y" : 200
+                      }
+                    }
+                  }, {
+                    "id" : "YWDEFQIR",
+                    "pluginName" : "logic-core",
+                    "identifier" : "if",
+                    "content" : {
+                      "conditions" : {
+                        "type" : "structure",
+                        "structure" : {
+                          "ifCase" : {
+                            "type" : "structure",
+                            "structure" : {
+                              "identifier" : {
+                                "type" : "literal",
+                                "literal" : "if"
+                              },
+                              "conditions" : {
+                                "type" : "structure",
+                                "structure" : {
+                                  "conditionType" : {
+                                    "type" : "literal",
+                                    "literal" : 0
+                                  },
+                                  "conditionItems" : {
+                                    "type" : "structure",
+                                    "structure" : [ {
+                                      "type" : "structure",
+                                      "structure" : {
+                                        "id" : {
+                                          "type" : "literal",
+                                          "literal" : "AKJU0T0R"
+                                        },
+                                        "conditionType" : {
+                                          "type" : "literal",
+                                          "literal" : 2
+                                        },
+                                        "operator" : {
+                                          "type" : "literal",
+                                          "literal" : 0
+                                        },
+                                        "operand" : {
+                                          "type" : "expression",
+                                          "literal" : "",
+                                          "expression" : "TC1NZF72"
+                                        },
+                                        "value" : {
+                                          "type" : "literal",
+                                          "literal" : false
+                                        }
+                                      }
+                                    } ]
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "elseCase" : {
+                            "type" : "structure",
+                            "structure" : {
+                              "identifier" : {
+                                "type" : "literal",
+                                "literal" : "else"
+                              }
+                            }
+                          },
+                          "elseIfCases" : {
+                            "type" : "structure",
+                            "structure" : [ ]
+                          }
+                        }
+                      }
+                    },
+                    "attributes" : {
+                      "position" : {
+                        "x" : -70.75,
+                        "y" : 145
+                      }
+                    }
+                  }, {
+                    "id" : "SP8PPTMY",
+                    "pluginName" : "logic-ui-interaction",
+                    "identifier" : "destination",
+                    "content" : {
+                      "navigationType" : {
+                        "type" : "literal",
+                        "literal" : "internal"
+                      },
+                      "target" : {
+                        "type" : "expression",
+                        "literal" : "",
+                        "expression" : "JB181FHE"
+                      },
+                      "windowTarget" : {
+                        "type" : "literal",
+                        "literal" : "_self"
+                      },
+                      "href" : {
+                        "type" : "literal",
+                        "literal" : ""
+                      },
+                      "parameterValues" : {
+                        "type" : "structure",
+                        "structure" : { }
+                      }
+                    },
+                    "attributes" : {
+                      "position" : {
+                        "x" : 976.6994438171387,
+                        "y" : 155.1999969482422
+                      }
+                    }
+                  }, {
+                    "id" : "B5V3OJXT",
+                    "pluginName" : "logic-core",
+                    "identifier" : "if",
+                    "content" : {
+                      "conditions" : {
+                        "type" : "structure",
+                        "structure" : {
+                          "ifCase" : {
+                            "type" : "structure",
+                            "structure" : {
+                              "identifier" : {
+                                "type" : "literal",
+                                "literal" : "if"
+                              },
+                              "conditions" : {
+                                "type" : "structure",
+                                "structure" : {
+                                  "conditionType" : {
+                                    "type" : "literal",
+                                    "literal" : 0
+                                  },
+                                  "conditionItems" : {
+                                    "type" : "structure",
+                                    "structure" : [ {
+                                      "type" : "structure",
+                                      "structure" : {
+                                        "id" : {
+                                          "type" : "literal",
+                                          "literal" : "DEUH2K2Y"
+                                        },
+                                        "conditionType" : {
+                                          "type" : "literal",
+                                          "literal" : 2
+                                        },
+                                        "operator" : {
+                                          "type" : "literal",
+                                          "literal" : 18
+                                        },
+                                        "operand" : {
+                                          "type" : "expression",
+                                          "literal" : "",
+                                          "expression" : "JB181FHE"
+                                        },
+                                        "value" : {
+                                          "type" : "literal",
+                                          "literal" : ""
+                                        }
+                                      }
+                                    } ]
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "elseCase" : {
+                            "type" : "structure",
+                            "structure" : {
+                              "identifier" : {
+                                "type" : "literal",
+                                "literal" : "else"
+                              }
+                            }
+                          },
+                          "elseIfCases" : {
+                            "type" : "structure",
+                            "structure" : [ ]
+                          }
+                        }
+                      }
+                    },
+                    "attributes" : {
+                      "position" : {
+                        "x" : 736.6994438171387,
+                        "y" : 155.1999969482422
+                      }
+                    }
+                  }, {
+                    "id" : "V9VJPYSE",
+                    "pluginName" : "logic-ui-interaction",
+                    "identifier" : "destination",
+                    "content" : {
+                      "navigationType" : {
+                        "type" : "literal",
+                        "literal" : "internal"
+                      },
+                      "target" : {
+                        "type" : "expression",
+                        "literal" : null,
+                        "expression" : "\"/\""
+                      },
+                      "windowTarget" : {
+                        "type" : "literal",
+                        "literal" : "_self"
+                      },
+                      "href" : {
+                        "type" : "literal",
+                        "literal" : ""
+                      },
+                      "parameterValues" : {
+                        "type" : "structure",
+                        "structure" : { }
+                      }
+                    },
+                    "attributes" : {
+                      "position" : {
+                        "x" : 976.6994438171387,
+                        "y" : 224
+                      }
+                    }
+                  } ],
+                  "edges" : [ {
+                    "id" : "LKX0ZT93",
+                    "sourceId" : "K3O1VMJN",
+                    "targetId" : "FS4P67M5",
+                    "sourcePosition" : "right",
+                    "targetPosition" : "left"
+                  }, {
+                    "id" : "W7CT5X7L",
+                    "sourceId" : "FS4P67M5",
+                    "sourceAnchorId" : "if",
+                    "targetId" : "B5V3OJXT",
+                    "sourcePosition" : "right",
+                    "targetPosition" : "left"
+                  }, {
+                    "id" : "U4BCDOAJ",
+                    "sourceId" : "V9VJPYSE",
+                    "targetId" : "BBD3GMJ9",
+                    "sourcePosition" : "right",
+                    "targetPosition" : "left"
+                  }, {
+                    "id" : "R9SGEJ7J",
+                    "sourceId" : "FS4P67M5",
+                    "sourceAnchorId" : "else",
+                    "targetId" : "ZAAEJOF7",
+                    "sourcePosition" : "right",
+                    "targetPosition" : "left"
+                  }, {
+                    "id" : "QN8PZWNN",
+                    "sourceId" : "ZAAEJOF7",
+                    "targetId" : "BBD3GMJ9",
+                    "sourcePosition" : "right",
+                    "targetPosition" : "left"
+                  }, {
+                    "id" : "VJFJJ33M",
+                    "sourceId" : "F8SEGALW",
+                    "targetId" : "Z9TG5RVH",
+                    "sourcePosition" : "right",
+                    "targetPosition" : "left"
+                  }, {
+                    "id" : "UKNHWO3D",
+                    "sourceId" : "Z9TG5RVH",
+                    "targetId" : "YWDEFQIR",
+                    "sourcePosition" : "right",
+                    "targetPosition" : "left"
+                  }, {
+                    "id" : "BOS40BQJ",
+                    "sourceId" : "YWDEFQIR",
+                    "sourceAnchorId" : "else",
+                    "targetId" : "K3O1VMJN",
+                    "sourcePosition" : "right",
+                    "targetPosition" : "left"
+                  }, {
+                    "id" : "A7HC2TD1",
+                    "sourceId" : "YWDEFQIR",
+                    "sourceAnchorId" : "if",
+                    "targetId" : "PAZIUEAP",
+                    "sourcePosition" : "right",
+                    "targetPosition" : "left"
+                  }, {
+                    "id" : "PL034K2Z",
+                    "sourceId" : "B5V3OJXT",
+                    "sourceAnchorId" : "if",
+                    "targetId" : "SP8PPTMY",
+                    "sourcePosition" : "right",
+                    "targetPosition" : "left"
+                  }, {
+                    "id" : "IT9QCYI9",
+                    "sourceId" : "B5V3OJXT",
+                    "sourceAnchorId" : "else",
+                    "targetId" : "V9VJPYSE",
+                    "sourcePosition" : "right",
+                    "targetPosition" : "left"
+                  }, {
+                    "id" : "JRTANSF9",
+                    "sourceId" : "SP8PPTMY",
+                    "targetId" : "BBD3GMJ9",
+                    "sourcePosition" : "right",
+                    "targetPosition" : "left"
+                  } ]
+                },
+                "targetEvent" : "click"
+              } ],
+              "properties" : [ {
+                "name" : "text",
+                "type" : "literal",
+                "literal" : "登录"
+              }, {
+                "name" : "enableNavigation",
+                "type" : "literal",
+                "literal" : false
+              }, {
+                "name" : "navigationType",
+                "type" : "literal",
+                "literal" : "external"
+              }, {
+                "name" : "targetPage",
+                "type" : "literal"
+              }, {
+                "name" : "href",
+                "type" : "literal",
+                "literal" : ""
+              }, {
+                "name" : "parameterValues",
+                "type" : "literal",
+                "literal" : ""
+              }, {
+                "name" : "color",
+                "type" : "literal",
+                "literal" : "primary"
+              }, {
+                "name" : "size",
+                "type" : "literal",
+                "literal" : "middle"
+              }, {
+                "name" : "shape",
+                "type" : "literal",
+                "literal" : "default"
+              }, {
+                "name" : "variant",
+                "type" : "literal",
+                "literal" : "solid"
+              }, {
+                "name" : "showIcon",
+                "type" : "literal",
+                "literal" : false
+              }, {
+                "name" : "iconPosition",
+                "type" : "literal",
+                "literal" : "start"
+              }, {
+                "name" : "autoInsertSpace",
+                "type" : "literal",
+                "literal" : true
+              }, {
+                "name" : "disabled",
+                "type" : "literal",
+                "literal" : false
+              }, {
+                "name" : "loading",
+                "type" : "expression"
+              }, {
+                "name" : "canSubmitOnEnter",
+                "type" : "literal",
+                "literal" : true
+              }, {
+                "name" : "enableNavigation",
+                "type" : "literal",
+                "literal" : false
+              } ],
+              "children" : [ ],
+              "description" : "",
+              "visible" : {
+                "type" : "expression",
+                "expression" : ""
+              }
+            } ],
+            "description" : "",
+            "visible" : {
+              "type" : "expression",
+              "expression" : ""
+            },
+            "slotTarget" : "content"
+          } ],
+          "description" : "",
+          "visible" : {
+            "type" : "expression",
+            "expression" : ""
+          }
+        } ],
+        "description" : "",
+        "visible" : {
+          "type" : "expression",
+          "expression" : ""
+        }
+      }, {
+        "id" : "T90Z5ITV",
+        "name" : "默认账号提示容器",
+        "type" : "linear-layout",
+        "pluginName" : "component-common",
+        "styles" : [ {
+          "target" : "root",
+          "pseudo" : "none",
+          "cssProperties" : [ {
+            "name" : "display",
+            "type" : "literal",
+            "literal" : "flex"
+          }, {
+            "name" : "flexDirection",
+            "type" : "literal",
+            "literal" : "row"
+          }, {
+            "name" : "justifyContent",
+            "type" : "literal",
+            "literal" : "center"
+          } ]
+        } ],
+        "events" : [ ],
+        "properties" : [ ],
+        "children" : [ {
+          "id" : "OS6ZOGB2",
+          "name" : "默认账号提示文本",
+          "type" : "text",
+          "pluginName" : "component-common",
+          "styles" : [ {
+            "target" : "root",
+            "pseudo" : "none",
+            "cssProperties" : [ {
+              "name" : "alignSelf",
+              "type" : "literal",
+              "literal" : ""
+            }, {
+              "name" : "backgroundColor",
+              "type" : "literal"
+            }, {
+              "name" : "color",
+              "type" : "literal",
+              "literal" : "#958282"
+            } ]
+          } ],
+          "events" : [ ],
+          "properties" : [ {
+            "name" : "text",
+            "type" : "literal",
+            "literal" : "默认账号：admin"
+          }, {
+            "name" : "isHeader",
+            "type" : "literal",
+            "literal" : false
+          }, {
+            "name" : "level",
+            "type" : "literal",
+            "literal" : 1
+          }, {
+            "name" : "wrapping",
+            "type" : "literal",
+            "literal" : "normal"
+          }, {
+            "name" : "ellipsis",
+            "type" : "literal",
+            "literal" : false
+          } ],
+          "children" : [ ],
+          "description" : "",
+          "visible" : {
+            "type" : "expression",
+            "expression" : ""
+          }
+        } ],
+        "description" : "",
+        "visible" : {
+          "type" : "expression",
+          "expression" : ""
+        }
+      }, {
+        "id" : "E268ZM5B",
+        "name" : "默认密码提示容器",
+        "type" : "linear-layout",
+        "pluginName" : "component-common",
+        "styles" : [ {
+          "target" : "root",
+          "pseudo" : "none",
+          "cssProperties" : [ {
+            "name" : "display",
+            "type" : "literal",
+            "literal" : "flex"
+          }, {
+            "name" : "flexDirection",
+            "type" : "literal",
+            "literal" : "row"
+          }, {
+            "name" : "justifyContent",
+            "type" : "literal",
+            "literal" : "center"
+          } ]
+        } ],
+        "events" : [ ],
+        "properties" : [ ],
+        "children" : [ {
+          "id" : "EILFDS85",
+          "name" : "默认密码提示文本",
+          "type" : "text",
+          "pluginName" : "component-common",
+          "styles" : [ {
+            "target" : "root",
+            "pseudo" : "none",
+            "cssProperties" : [ {
+              "name" : "alignSelf",
+              "type" : "literal",
+              "literal" : ""
+            }, {
+              "name" : "color",
+              "type" : "literal",
+              "literal" : "#958282"
+            } ]
+          } ],
+          "events" : [ ],
+          "properties" : [ {
+            "name" : "text",
+            "type" : "literal",
+            "literal" : "默认密码：123456"
+          }, {
+            "name" : "isHeader",
+            "type" : "literal",
+            "literal" : false
+          }, {
+            "name" : "level",
+            "type" : "literal",
+            "literal" : 1
+          }, {
+            "name" : "wrapping",
+            "type" : "literal",
+            "literal" : "normal"
+          }, {
+            "name" : "ellipsis",
+            "type" : "literal",
+            "literal" : false
+          } ],
+          "children" : [ ],
+          "description" : "",
+          "visible" : {
+            "type" : "expression",
+            "expression" : ""
+          }
+        } ],
+        "description" : "",
+        "visible" : {
+          "type" : "expression",
+          "expression" : ""
+        }
+      }, {
+        "id" : "C9TRP2Q5",
+        "name" : "登录错误容器",
+        "type" : "linear-layout",
+        "pluginName" : "component-common",
+        "styles" : [ {
+          "pseudo" : "none",
+          "target" : "root",
+          "cssProperties" : [ {
+            "name" : "position",
+            "type" : "literal",
+            "literal" : "relative"
+          }, {
+            "name" : "border",
+            "type" : "literal",
+            "literal" : { }
+          } ]
+        } ],
+        "events" : [ ],
+        "properties" : [ {
+          "name" : "enableCustomLoading",
+          "type" : "literal",
+          "literal" : ""
+        }, {
+          "name" : "loading",
+          "type" : "literal",
+          "literal" : ""
+        } ],
+        "children" : [ {
+          "id" : "OU3OF6MB",
+          "name" : "文本",
+          "type" : "text",
+          "pluginName" : "component-common",
+          "styles" : [ {
+            "pseudo" : "none",
+            "target" : "root",
+            "cssProperties" : [ {
+              "name" : "size",
+              "type" : "literal",
+              "literal" : {
+                "width" : "",
+                "height" : "",
+                "minWidth" : "",
+                "minHeight" : "",
+                "maxWidth" : "100%",
+                "maxHeight" : ""
+              }
+            }, {
+              "name" : "border",
+              "type" : "literal",
+              "literal" : { }
+            }, {
+              "name" : "color",
+              "type" : "literal",
+              "literal" : "var(--color-error)"
+            }, {
+              "name" : "backgroundImage",
+              "type" : "literal",
+              "literal" : ""
+            } ]
+          } ],
+          "events" : [ ],
+          "properties" : [ {
+            "name" : "text",
+            "type" : "expression",
+            "expression" : "CT0SLLHL"
+          }, {
+            "name" : "format",
+            "type" : "literal"
+          }, {
+            "name" : "customFormat",
+            "type" : "literal",
+            "literal" : ""
+          }, {
+            "name" : "isHeader",
+            "type" : "literal",
+            "literal" : false
+          }, {
+            "name" : "level",
+            "type" : "literal",
+            "literal" : 1
+          }, {
+            "name" : "wrapping",
+            "type" : "literal",
+            "literal" : "normal"
+          }, {
+            "name" : "ellipsis",
+            "type" : "literal",
+            "literal" : false
+          } ],
+          "children" : [ ],
+          "description" : "",
+          "visible" : {
+            "type" : "expression",
+            "expression" : ""
+          }
+        } ],
+        "description" : "",
+        "visible" : {
+          "type" : "expression",
+          "expression" : "String.Length(CT0SLLHL)>0"
+        }
+      } ],
+      "description" : "",
+      "visible" : {
+        "type" : "expression",
+        "expression" : ""
+      }
+    } ],
+    "description" : "",
+    "visible" : {
+      "type" : "expression",
+      "expression" : ""
+    }
+  },
+  "variables" : [ {
+    "id" : "JB181FHE",
+    "name" : "redirect",
+    "isParameter" : true,
+    "defaultValue" : {
+      "type" : "literal"
+    },
+    "dataType" : {
+      "typeId" : "String"
+    },
+    "description" : ""
+  }, {
+    "id" : "CT0SLLHL",
+    "name" : "loginError",
+    "isParameter" : true,
+    "defaultValue" : {
+      "type" : "expression",
+      "expression" : "\"\""
+    },
+    "dataType" : {
+      "typeId" : "String"
+    },
+    "description" : ""
+  }, {
+    "id" : "M4EUTUE0",
+    "name" : "userName",
+    "defaultValue" : {
+      "type" : "literal"
+    },
+    "dataType" : {
+      "typeId" : "String"
+    },
+    "description" : ""
+  }, {
+    "id" : "LI56DKKU",
+    "name" : "password",
+    "defaultValue" : {
+      "type" : "literal"
+    },
+    "dataType" : {
+      "typeId" : "String"
+    },
+    "description" : ""
+  }, {
+    "id" : "Z6AMU6X4",
+    "name" : "rememberMe",
+    "defaultValue" : {
+      "type" : "literal"
+    },
+    "dataType" : {
+      "typeId" : "Boolean"
+    },
+    "description" : ""
+  }, {
+    "id" : "NZFVNAXB",
+    "name" : "config",
+    "defaultValue" : {
+      "type" : "literal",
+      "literal" : ""
+    },
+    "dataType" : {
+      "typeId" : "V8DCIZG7"
+    },
+    "description" : ""
+  } ],
+  "events" : [ {
+    "id" : "EM8HCVGD",
+    "name" : "页面加载前1",
+    "description" : "",
+    "variables" : [ ],
+    "parameters" : [ ],
+    "returnValues" : [ ],
+    "diagram" : {
+      "nodes" : [ {
+        "id" : "XSGXS32O",
+        "name" : "开始",
+        "pluginName" : "",
+        "identifier" : "",
+        "attributes" : {
+          "position" : {
+            "x" : 80,
+            "y" : 200
+          }
+        },
+        "isStartPoint" : true
+      }, {
+        "id" : "CCE0B23C",
+        "name" : "结束",
+        "pluginName" : "logic-core",
+        "identifier" : "return",
+        "attributes" : {
+          "position" : {
+            "x" : 800,
+            "y" : 200
+          }
+        }
+      }, {
+        "id" : "O8AYQXYQ",
+        "pluginName" : "logic-core",
+        "identifier" : "call-logic",
+        "content" : {
+          "itemType" : {
+            "type" : "literal",
+            "literal" : "logic"
+          },
+          "logicRef" : {
+            "type" : "ref",
+            "literal" : "K5RR4JIA"
+          },
+          "parameters" : {
+            "type" : "structure",
+            "structure" : [ ]
+          },
+          "returnValues" : {
+            "type" : "structure",
+            "structure" : [ {
+              "type" : "structure",
+              "structure" : {
+                "id" : {
+                  "type" : "literal",
+                  "literal" : "XMH9A51P"
+                },
+                "variable" : {
+                  "type" : "variable",
+                  "variable" : "NZFVNAXB"
+                }
+              }
+            } ]
+          }
+        },
+        "attributes" : {
+          "position" : {
+            "x" : 335.20831298828125,
+            "y" : 186.3333282470703
+          }
+        }
+      } ],
+      "edges" : [ {
+        "id" : "MQBB60SO",
+        "sourceId" : "XSGXS32O",
+        "targetId" : "O8AYQXYQ",
+        "sourcePosition" : "right",
+        "targetPosition" : "left"
+      }, {
+        "id" : "IQRGN3RY",
+        "sourceId" : "O8AYQXYQ",
+        "targetId" : "CCE0B23C",
+        "sourcePosition" : "right",
+        "targetPosition" : "left"
+      } ]
+    },
+    "targetEvent" : "enter"
+  } ],
+  "logics" : [ ],
+  "description" : "",
+  "externalCssFiles" : [ ],
+  "externalJsFiles" : [ ],
+  "url" : "/PC/系统页面/登录页",
+  "platform" : "pc"
+}
