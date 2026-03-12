@@ -41,13 +41,7 @@
 }, {
   "moduleType" : "logic",
   "moduleName" : "服务端逻辑/allcolumns/创建allcolumns",
-  "state" : "Edit",
-  "lockedBy" : {
-    "username" : "xa-dd3-vickyzh",
-    "email" : "vicky.zheng@developertools.com"
-  },
-  "lockDateTime" : "2026-03-12T03:48:24.747433Z",
-  "resourcePaths" : [ "documents/logic/服务端逻辑/allcolumns/创建allcolumns.json", "documents/logic/服务端逻辑/allcolumns/创建allcolumns.metadata.json", "documents/logic/服务端逻辑/allcolumns/创建allcolumns.refId.json", "documents/ref-object/XSQJ8PY7.json", "documents/ref-object/XSQJ8PY7.metadata.json" ],
+  "state" : "Unlocked",
   "resourceType" : "Document",
   "resourceId" : "XSQJ8PY7"
 }, {
@@ -71,25 +65,13 @@
 }, {
   "moduleType" : "logic",
   "moduleName" : "服务端逻辑/allcolumns/查询allcolumns",
-  "state" : "Edit",
-  "lockedBy" : {
-    "username" : "xa-dd3-vickyzh",
-    "email" : "vicky.zheng@developertools.com"
-  },
-  "lockDateTime" : "2026-03-12T03:48:10.6371509Z",
-  "resourcePaths" : [ "documents/logic/服务端逻辑/allcolumns/查询allcolumns.json", "documents/logic/服务端逻辑/allcolumns/查询allcolumns.metadata.json", "documents/logic/服务端逻辑/allcolumns/查询allcolumns.refId.json", "documents/ref-object/BUPC4MI7.json", "documents/ref-object/BUPC4MI7.metadata.json" ],
+  "state" : "Unlocked",
   "resourceType" : "Document",
   "resourceId" : "BUPC4MI7"
 }, {
   "moduleType" : "logic",
   "moduleName" : "服务端逻辑/allcolumns/查询allcolumns详情",
-  "state" : "Edit",
-  "lockedBy" : {
-    "username" : "xa-dd3-vickyzh",
-    "email" : "vicky.zheng@developertools.com"
-  },
-  "lockDateTime" : "2026-03-12T03:48:18.3357491Z",
-  "resourcePaths" : [ "documents/logic/服务端逻辑/allcolumns/查询allcolumns详情.json", "documents/logic/服务端逻辑/allcolumns/查询allcolumns详情.metadata.json", "documents/logic/服务端逻辑/allcolumns/查询allcolumns详情.refId.json", "documents/ref-object/LT4DI8HE.json", "documents/ref-object/LT4DI8HE.metadata.json" ],
+  "state" : "Unlocked",
   "resourceType" : "Document",
   "resourceId" : "LT4DI8HE"
 }, {
