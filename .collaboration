@@ -421,4 +421,76 @@
   "resourcePaths" : [ "documents/logic/服务端逻辑/allcolumns_1/查询allcolumns详情_1.json", "documents/logic/服务端逻辑/allcolumns_1/查询allcolumns详情_1.metadata.json", "documents/logic/服务端逻辑/allcolumns_1/查询allcolumns详情_1.refId.json", "documents/ref-object/YG4Y459D.json", "documents/ref-object/YG4Y459D.metadata.json" ],
   "resourceType" : "Document",
   "resourceId" : "YG4Y459D"
+}, {
+  "moduleType" : "logic",
+  "moduleName" : "服务端逻辑/allcolumns_2",
+  "state" : "New",
+  "lockedBy" : {
+    "username" : "xa-dd3-vickyzh",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-12T03:43:20.0210487Z",
+  "resourcePaths" : [ "documents/logic/服务端逻辑/allcolumns_2", "documents/logic/服务端逻辑/allcolumns_2/.f.metadata.json", "documents/logic/服务端逻辑/allcolumns_2/.f.json", "documents/ref-object/EZ3M3ST3.json", "documents/ref-object/EZ3M3ST3.metadata.json" ],
+  "resourceType" : "Folder",
+  "resourceId" : "EZ3M3ST3"
+}, {
+  "moduleType" : "logic",
+  "moduleName" : "服务端逻辑/allcolumns_2/创建allcolumns_2",
+  "state" : "New",
+  "lockedBy" : {
+    "username" : "xa-dd3-vickyzh",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-12T03:43:20.0210487Z",
+  "resourcePaths" : [ "documents/logic/服务端逻辑/allcolumns_2/创建allcolumns_2.json", "documents/logic/服务端逻辑/allcolumns_2/创建allcolumns_2.metadata.json", "documents/logic/服务端逻辑/allcolumns_2/创建allcolumns_2.refId.json", "documents/ref-object/US6W74HE.json", "documents/ref-object/US6W74HE.metadata.json" ],
+  "resourceType" : "Document",
+  "resourceId" : "US6W74HE"
+}, {
+  "moduleType" : "logic",
+  "moduleName" : "服务端逻辑/allcolumns_2/创建或更改allcolumns_2",
+  "state" : "New",
+  "lockedBy" : {
+    "username" : "xa-dd3-vickyzh",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-12T03:43:20.0210487Z",
+  "resourcePaths" : [ "documents/logic/服务端逻辑/allcolumns_2/创建或更改allcolumns_2.json", "documents/logic/服务端逻辑/allcolumns_2/创建或更改allcolumns_2.metadata.json", "documents/logic/服务端逻辑/allcolumns_2/创建或更改allcolumns_2.refId.json", "documents/ref-object/CQ4KMAW3.json", "documents/ref-object/CQ4KMAW3.metadata.json" ],
+  "resourceType" : "Document",
+  "resourceId" : "CQ4KMAW3"
+}, {
+  "moduleType" : "logic",
+  "moduleName" : "服务端逻辑/allcolumns_2/更改allcolumns_2",
+  "state" : "New",
+  "lockedBy" : {
+    "username" : "xa-dd3-vickyzh",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-12T03:43:20.0210487Z",
+  "resourcePaths" : [ "documents/logic/服务端逻辑/allcolumns_2/更改allcolumns_2.json", "documents/logic/服务端逻辑/allcolumns_2/更改allcolumns_2.metadata.json", "documents/logic/服务端逻辑/allcolumns_2/更改allcolumns_2.refId.json", "documents/ref-object/NFNLMF2O.json", "documents/ref-object/NFNLMF2O.metadata.json" ],
+  "resourceType" : "Document",
+  "resourceId" : "NFNLMF2O"
+}, {
+  "moduleType" : "logic",
+  "moduleName" : "服务端逻辑/allcolumns_2/删除allcolumns_2",
+  "state" : "New",
+  "lockedBy" : {
+    "username" : "xa-dd3-vickyzh",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-12T03:43:20.0210487Z",
+  "resourcePaths" : [ "documents/logic/服务端逻辑/allcolumns_2/删除allcolumns_2.json", "documents/logic/服务端逻辑/allcolumns_2/删除allcolumns_2.metadata.json", "documents/logic/服务端逻辑/allcolumns_2/删除allcolumns_2.refId.json", "documents/ref-object/DAHVD736.json", "documents/ref-object/DAHVD736.metadata.json" ],
+  "resourceType" : "Document",
+  "resourceId" : "DAHVD736"
+}, {
+  "moduleType" : "logic",
+  "moduleName" : "服务端逻辑/allcolumns_2/查询allcolumns_2",
+  "state" : "New",
+  "lockedBy" : {
+    "username" : "xa-dd3-vickyzh",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-12T03:43:20.0210487Z",
+  "resourcePaths" : [ "documents/logic/服务端逻辑/allcolumns_2/查询allcolumns_2.json", "documents/logic/服务端逻辑/allcolumns_2/查询allcolumns_2.metadata.json", "documents/logic/服务端逻辑/allcolumns_2/查询allcolumns_2.refId.json", "documents/ref-object/SHEVE45Y.json", "documents/ref-object/SHEVE45Y.metadata.json" ],
+  "resourceType" : "Document",
+  "resourceId" : "SHEVE45Y"
 } ]
