@@ -304,7 +304,13 @@
 }, {
   "moduleType" : "entity",
   "moduleName" : "sqlserver/allcolumns",
-  "state" : "Unlocked",
+  "state" : "Edit",
+  "lockedBy" : {
+    "username" : "xa-dd3-vickyzh",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-12T03:35:23.0609434Z",
+  "resourcePaths" : [ "documents/entity/sqlserver/allcolumns.json", "documents/entity/sqlserver/allcolumns.metadata.json", "documents/entity/sqlserver/allcolumns.refId.json", "documents/ref-object/HK4XWQMR.json", "documents/ref-object/HK4XWQMR.metadata.json" ],
   "resourceType" : "Document",
   "resourceId" : "HK4XWQMR"
 }, {
