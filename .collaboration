@@ -77,7 +77,13 @@
 }, {
   "moduleType" : "logic",
   "moduleName" : "服务端逻辑/allcolumns/查询allcolumns详情",
-  "state" : "Unlocked",
+  "state" : "Edit",
+  "lockedBy" : {
+    "username" : "xa-dd3-vickyzh",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-12T03:48:18.3357491Z",
+  "resourcePaths" : [ "documents/logic/服务端逻辑/allcolumns/查询allcolumns详情.json", "documents/logic/服务端逻辑/allcolumns/查询allcolumns详情.metadata.json", "documents/logic/服务端逻辑/allcolumns/查询allcolumns详情.refId.json", "documents/ref-object/LT4DI8HE.json", "documents/ref-object/LT4DI8HE.metadata.json" ],
   "resourceType" : "Document",
   "resourceId" : "LT4DI8HE"
 }, {
