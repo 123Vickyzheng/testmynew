@@ -65,25 +65,13 @@
 }, {
   "moduleType" : "logic",
   "moduleName" : "服务端逻辑/allcolumns/查询allcolumns",
-  "state" : "Edit",
-  "lockedBy" : {
-    "username" : "xa-dd3-vickyzh",
-    "email" : "vicky.zheng@developertools.com"
-  },
-  "lockDateTime" : "2026-03-12T03:28:51.0718706Z",
-  "resourcePaths" : [ "documents/logic/服务端逻辑/allcolumns/查询allcolumns.json", "documents/logic/服务端逻辑/allcolumns/查询allcolumns.metadata.json", "documents/logic/服务端逻辑/allcolumns/查询allcolumns.refId.json", "documents/ref-object/BUPC4MI7.json", "documents/ref-object/BUPC4MI7.metadata.json" ],
+  "state" : "Unlocked",
   "resourceType" : "Document",
   "resourceId" : "BUPC4MI7"
 }, {
   "moduleType" : "logic",
   "moduleName" : "服务端逻辑/allcolumns/查询allcolumns详情",
-  "state" : "Edit",
-  "lockedBy" : {
-    "username" : "xa-dd3-vickyzh",
-    "email" : "vicky.zheng@developertools.com"
-  },
-  "lockDateTime" : "2026-03-12T03:29:28.0540448Z",
-  "resourcePaths" : [ "documents/logic/服务端逻辑/allcolumns/查询allcolumns详情.json", "documents/logic/服务端逻辑/allcolumns/查询allcolumns详情.metadata.json", "documents/logic/服务端逻辑/allcolumns/查询allcolumns详情.refId.json", "documents/ref-object/LT4DI8HE.json", "documents/ref-object/LT4DI8HE.metadata.json" ],
+  "state" : "Unlocked",
   "resourceType" : "Document",
   "resourceId" : "LT4DI8HE"
 }, {
@@ -226,13 +214,7 @@
 }, {
   "moduleType" : "page",
   "moduleName" : "PC/页面1",
-  "state" : "Edit",
-  "lockedBy" : {
-    "username" : "xa-dd3-vickyzh",
-    "email" : "vicky.zheng@developertools.com"
-  },
-  "lockDateTime" : "2026-03-12T03:29:50.7500388Z",
-  "resourcePaths" : [ "documents/page/PC/页面1.json", "documents/page/PC/页面1.metadata.json", "documents/page/PC/页面1.refId.json", "documents/ref-object/HE0FJVQ7.json", "documents/ref-object/HE0FJVQ7.metadata.json" ],
+  "state" : "Unlocked",
   "resourceType" : "Document",
   "resourceId" : "HE0FJVQ7"
 }, {
@@ -304,13 +286,7 @@
 }, {
   "moduleType" : "entity",
   "moduleName" : "sqlserver/allcolumns",
-  "state" : "Edit",
-  "lockedBy" : {
-    "username" : "xa-dd3-vickyzh",
-    "email" : "vicky.zheng@developertools.com"
-  },
-  "lockDateTime" : "2026-03-12T03:35:23.0609434Z",
-  "resourcePaths" : [ "documents/entity/sqlserver/allcolumns.json", "documents/entity/sqlserver/allcolumns.metadata.json", "documents/entity/sqlserver/allcolumns.refId.json", "documents/ref-object/HK4XWQMR.json", "documents/ref-object/HK4XWQMR.metadata.json" ],
+  "state" : "Unlocked",
   "resourceType" : "Document",
   "resourceId" : "HK4XWQMR"
 }, {
@@ -325,172 +301,4 @@
   "state" : "Unlocked",
   "resourceType" : "Folder",
   "resourceId" : "BSKX1C46"
-}, {
-  "moduleType" : "page",
-  "moduleName" : "PC/页面2",
-  "state" : "New",
-  "lockedBy" : {
-    "username" : "xa-dd3-vickyzh",
-    "email" : "vicky.zheng@developertools.com"
-  },
-  "lockDateTime" : "2026-03-12T03:29:40.5163547Z",
-  "resourcePaths" : [ "documents/page/PC/页面2.json", "documents/page/PC/页面2.metadata.json", "documents/page/PC/页面2.refId.json", "documents/ref-object/GJNSGVR0.json", "documents/ref-object/GJNSGVR0.metadata.json" ],
-  "resourceType" : "Document",
-  "resourceId" : "GJNSGVR0"
-}, {
-  "moduleType" : "logic",
-  "moduleName" : "服务端逻辑/allcolumns_1",
-  "state" : "New",
-  "lockedBy" : {
-    "username" : "xa-dd3-vickyzh",
-    "email" : "vicky.zheng@developertools.com"
-  },
-  "lockDateTime" : "2026-03-12T03:36:11.8544612Z",
-  "resourcePaths" : [ "documents/logic/服务端逻辑/allcolumns_1", "documents/logic/服务端逻辑/allcolumns_1/.f.metadata.json", "documents/logic/服务端逻辑/allcolumns_1/.f.json", "documents/ref-object/K8M54ANF.json", "documents/ref-object/K8M54ANF.metadata.json" ],
-  "resourceType" : "Folder",
-  "resourceId" : "K8M54ANF"
-}, {
-  "moduleType" : "logic",
-  "moduleName" : "服务端逻辑/allcolumns_1/创建allcolumns_1",
-  "state" : "New",
-  "lockedBy" : {
-    "username" : "xa-dd3-vickyzh",
-    "email" : "vicky.zheng@developertools.com"
-  },
-  "lockDateTime" : "2026-03-12T03:36:11.8544612Z",
-  "resourcePaths" : [ "documents/logic/服务端逻辑/allcolumns_1/创建allcolumns_1.json", "documents/logic/服务端逻辑/allcolumns_1/创建allcolumns_1.metadata.json", "documents/logic/服务端逻辑/allcolumns_1/创建allcolumns_1.refId.json", "documents/ref-object/YKVM4M23.json", "documents/ref-object/YKVM4M23.metadata.json" ],
-  "resourceType" : "Document",
-  "resourceId" : "YKVM4M23"
-}, {
-  "moduleType" : "logic",
-  "moduleName" : "服务端逻辑/allcolumns_1/创建或更改allcolumns_1",
-  "state" : "New",
-  "lockedBy" : {
-    "username" : "xa-dd3-vickyzh",
-    "email" : "vicky.zheng@developertools.com"
-  },
-  "lockDateTime" : "2026-03-12T03:36:11.8544612Z",
-  "resourcePaths" : [ "documents/logic/服务端逻辑/allcolumns_1/创建或更改allcolumns_1.json", "documents/logic/服务端逻辑/allcolumns_1/创建或更改allcolumns_1.metadata.json", "documents/logic/服务端逻辑/allcolumns_1/创建或更改allcolumns_1.refId.json", "documents/ref-object/VA58B0GE.json", "documents/ref-object/VA58B0GE.metadata.json" ],
-  "resourceType" : "Document",
-  "resourceId" : "VA58B0GE"
-}, {
-  "moduleType" : "logic",
-  "moduleName" : "服务端逻辑/allcolumns_1/更改allcolumns_1",
-  "state" : "New",
-  "lockedBy" : {
-    "username" : "xa-dd3-vickyzh",
-    "email" : "vicky.zheng@developertools.com"
-  },
-  "lockDateTime" : "2026-03-12T03:36:11.8544612Z",
-  "resourcePaths" : [ "documents/logic/服务端逻辑/allcolumns_1/更改allcolumns_1.json", "documents/logic/服务端逻辑/allcolumns_1/更改allcolumns_1.metadata.json", "documents/logic/服务端逻辑/allcolumns_1/更改allcolumns_1.refId.json", "documents/ref-object/WGUAX9D3.json", "documents/ref-object/WGUAX9D3.metadata.json" ],
-  "resourceType" : "Document",
-  "resourceId" : "WGUAX9D3"
-}, {
-  "moduleType" : "logic",
-  "moduleName" : "服务端逻辑/allcolumns_1/删除allcolumns_1",
-  "state" : "New",
-  "lockedBy" : {
-    "username" : "xa-dd3-vickyzh",
-    "email" : "vicky.zheng@developertools.com"
-  },
-  "lockDateTime" : "2026-03-12T03:36:11.8544612Z",
-  "resourcePaths" : [ "documents/logic/服务端逻辑/allcolumns_1/删除allcolumns_1.json", "documents/logic/服务端逻辑/allcolumns_1/删除allcolumns_1.metadata.json", "documents/logic/服务端逻辑/allcolumns_1/删除allcolumns_1.refId.json", "documents/ref-object/CUSOKUWC.json", "documents/ref-object/CUSOKUWC.metadata.json" ],
-  "resourceType" : "Document",
-  "resourceId" : "CUSOKUWC"
-}, {
-  "moduleType" : "logic",
-  "moduleName" : "服务端逻辑/allcolumns_1/查询allcolumns_1",
-  "state" : "New",
-  "lockedBy" : {
-    "username" : "xa-dd3-vickyzh",
-    "email" : "vicky.zheng@developertools.com"
-  },
-  "lockDateTime" : "2026-03-12T03:36:11.8544612Z",
-  "resourcePaths" : [ "documents/logic/服务端逻辑/allcolumns_1/查询allcolumns_1.json", "documents/logic/服务端逻辑/allcolumns_1/查询allcolumns_1.metadata.json", "documents/logic/服务端逻辑/allcolumns_1/查询allcolumns_1.refId.json", "documents/ref-object/VWGT5GYG.json", "documents/ref-object/VWGT5GYG.metadata.json" ],
-  "resourceType" : "Document",
-  "resourceId" : "VWGT5GYG"
-}, {
-  "moduleType" : "logic",
-  "moduleName" : "服务端逻辑/allcolumns_1/查询allcolumns详情_1",
-  "state" : "New",
-  "lockedBy" : {
-    "username" : "xa-dd3-vickyzh",
-    "email" : "vicky.zheng@developertools.com"
-  },
-  "lockDateTime" : "2026-03-12T03:36:11.8544612Z",
-  "resourcePaths" : [ "documents/logic/服务端逻辑/allcolumns_1/查询allcolumns详情_1.json", "documents/logic/服务端逻辑/allcolumns_1/查询allcolumns详情_1.metadata.json", "documents/logic/服务端逻辑/allcolumns_1/查询allcolumns详情_1.refId.json", "documents/ref-object/YG4Y459D.json", "documents/ref-object/YG4Y459D.metadata.json" ],
-  "resourceType" : "Document",
-  "resourceId" : "YG4Y459D"
-}, {
-  "moduleType" : "logic",
-  "moduleName" : "服务端逻辑/allcolumns_2",
-  "state" : "New",
-  "lockedBy" : {
-    "username" : "xa-dd3-vickyzh",
-    "email" : "vicky.zheng@developertools.com"
-  },
-  "lockDateTime" : "2026-03-12T03:43:20.0210487Z",
-  "resourcePaths" : [ "documents/logic/服务端逻辑/allcolumns_2", "documents/logic/服务端逻辑/allcolumns_2/.f.metadata.json", "documents/logic/服务端逻辑/allcolumns_2/.f.json", "documents/ref-object/EZ3M3ST3.json", "documents/ref-object/EZ3M3ST3.metadata.json" ],
-  "resourceType" : "Folder",
-  "resourceId" : "EZ3M3ST3"
-}, {
-  "moduleType" : "logic",
-  "moduleName" : "服务端逻辑/allcolumns_2/创建allcolumns_2",
-  "state" : "New",
-  "lockedBy" : {
-    "username" : "xa-dd3-vickyzh",
-    "email" : "vicky.zheng@developertools.com"
-  },
-  "lockDateTime" : "2026-03-12T03:43:20.0210487Z",
-  "resourcePaths" : [ "documents/logic/服务端逻辑/allcolumns_2/创建allcolumns_2.json", "documents/logic/服务端逻辑/allcolumns_2/创建allcolumns_2.metadata.json", "documents/logic/服务端逻辑/allcolumns_2/创建allcolumns_2.refId.json", "documents/ref-object/US6W74HE.json", "documents/ref-object/US6W74HE.metadata.json" ],
-  "resourceType" : "Document",
-  "resourceId" : "US6W74HE"
-}, {
-  "moduleType" : "logic",
-  "moduleName" : "服务端逻辑/allcolumns_2/创建或更改allcolumns_2",
-  "state" : "New",
-  "lockedBy" : {
-    "username" : "xa-dd3-vickyzh",
-    "email" : "vicky.zheng@developertools.com"
-  },
-  "lockDateTime" : "2026-03-12T03:43:20.0210487Z",
-  "resourcePaths" : [ "documents/logic/服务端逻辑/allcolumns_2/创建或更改allcolumns_2.json", "documents/logic/服务端逻辑/allcolumns_2/创建或更改allcolumns_2.metadata.json", "documents/logic/服务端逻辑/allcolumns_2/创建或更改allcolumns_2.refId.json", "documents/ref-object/CQ4KMAW3.json", "documents/ref-object/CQ4KMAW3.metadata.json" ],
-  "resourceType" : "Document",
-  "resourceId" : "CQ4KMAW3"
-}, {
-  "moduleType" : "logic",
-  "moduleName" : "服务端逻辑/allcolumns_2/更改allcolumns_2",
-  "state" : "New",
-  "lockedBy" : {
-    "username" : "xa-dd3-vickyzh",
-    "email" : "vicky.zheng@developertools.com"
-  },
-  "lockDateTime" : "2026-03-12T03:43:20.0210487Z",
-  "resourcePaths" : [ "documents/logic/服务端逻辑/allcolumns_2/更改allcolumns_2.json", "documents/logic/服务端逻辑/allcolumns_2/更改allcolumns_2.metadata.json", "documents/logic/服务端逻辑/allcolumns_2/更改allcolumns_2.refId.json", "documents/ref-object/NFNLMF2O.json", "documents/ref-object/NFNLMF2O.metadata.json" ],
-  "resourceType" : "Document",
-  "resourceId" : "NFNLMF2O"
-}, {
-  "moduleType" : "logic",
-  "moduleName" : "服务端逻辑/allcolumns_2/删除allcolumns_2",
-  "state" : "New",
-  "lockedBy" : {
-    "username" : "xa-dd3-vickyzh",
-    "email" : "vicky.zheng@developertools.com"
-  },
-  "lockDateTime" : "2026-03-12T03:43:20.0210487Z",
-  "resourcePaths" : [ "documents/logic/服务端逻辑/allcolumns_2/删除allcolumns_2.json", "documents/logic/服务端逻辑/allcolumns_2/删除allcolumns_2.metadata.json", "documents/logic/服务端逻辑/allcolumns_2/删除allcolumns_2.refId.json", "documents/ref-object/DAHVD736.json", "documents/ref-object/DAHVD736.metadata.json" ],
-  "resourceType" : "Document",
-  "resourceId" : "DAHVD736"
-}, {
-  "moduleType" : "logic",
-  "moduleName" : "服务端逻辑/allcolumns_2/查询allcolumns_2",
-  "state" : "New",
-  "lockedBy" : {
-    "username" : "xa-dd3-vickyzh",
-    "email" : "vicky.zheng@developertools.com"
-  },
-  "lockDateTime" : "2026-03-12T03:43:20.0210487Z",
-  "resourcePaths" : [ "documents/logic/服务端逻辑/allcolumns_2/查询allcolumns_2.json", "documents/logic/服务端逻辑/allcolumns_2/查询allcolumns_2.metadata.json", "documents/logic/服务端逻辑/allcolumns_2/查询allcolumns_2.refId.json", "documents/ref-object/SHEVE45Y.json", "documents/ref-object/SHEVE45Y.metadata.json" ],
-  "resourceType" : "Document",
-  "resourceId" : "SHEVE45Y"
 } ]
