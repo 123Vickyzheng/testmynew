@@ -53,13 +53,25 @@
 }, {
   "moduleType" : "logic",
   "moduleName" : "服务端逻辑/allcolumns/更改allcolumns",
-  "state" : "Unlocked",
+  "state" : "Edit",
+  "lockedBy" : {
+    "username" : "xa-dd3-vickyzh",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-12T03:49:06.9974997Z",
+  "resourcePaths" : [ "documents/logic/服务端逻辑/allcolumns/更改allcolumns.json", "documents/logic/服务端逻辑/allcolumns/更改allcolumns.metadata.json", "documents/logic/服务端逻辑/allcolumns/更改allcolumns.refId.json", "documents/ref-object/I0C2UO3G.json", "documents/ref-object/I0C2UO3G.metadata.json" ],
   "resourceType" : "Document",
   "resourceId" : "I0C2UO3G"
 }, {
   "moduleType" : "logic",
   "moduleName" : "服务端逻辑/allcolumns/删除allcolumns",
-  "state" : "Unlocked",
+  "state" : "Edit",
+  "lockedBy" : {
+    "username" : "xa-dd3-vickyzh",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-12T03:49:06.9974997Z",
+  "resourcePaths" : [ "documents/logic/服务端逻辑/allcolumns/删除allcolumns.json", "documents/logic/服务端逻辑/allcolumns/删除allcolumns.metadata.json", "documents/logic/服务端逻辑/allcolumns/删除allcolumns.refId.json", "documents/ref-object/SGSH50KO.json", "documents/ref-object/SGSH50KO.metadata.json" ],
   "resourceType" : "Document",
   "resourceId" : "SGSH50KO"
 }, {
